@@ -187,9 +187,49 @@ Plate fabrication and the use of printing paper incur costs. In order to reduce 
 Since the existing sorting report output method was not suitable for small quantity batch production systems, the algorithm should be improved. Therefore, this study was conducted to develop new algorithms suitable for small quantity batch production systems too.
 
 
+\section{Modeling and flowchart}\label{sec:Modeling}
+To accurately formulate our problem as a mathematical optimization problem, we first need to define our notation.
+\begin{enumerate}[$\bullet$]
+	\item Let $I$ be a set of products.
+	\item For each product $i \in I$, let $b_{i}$ be the number of order.
+	\item Let ${\bf b}=(b_{i}|i \in I)$ be a vector of order-quantities.
+	\item $k$ is the total number of labels that can be placed in one Plate.
+	\item $\pi$ is a partition of $I$ such that $1 \leq  |P| \leq k$ for any $P \in \pi$. 
+	\item Let $\Gamma_{\pi}$ be a set of matrix $A \in {\rm Mat}_{\pi \times I}(\mathbf{Z})$ satisfy the following:
+	\begin{description}[-]
+		\item For all $(P,i) \in \pi \times I$, $A_{P,i} \leq 0$, and $A_{P,i} = 0$ if and only if $i \notin P$.
+		\item For each $P \in \pi$, $\sum_{i \in P}A_{P, i} = k$
+\end{description}
+\end{enumerate}
 
+Using the above notation,
+\begin{equation}\label{eq:NumPlate}
+	\left\lceil \max \left\{ \left.\frac{b_{i}}{A_{P,i}}\right|i \in P \right\} \right\rceil
+\end{equation}
+is the number of printing of Plate $P$, where $\lceil~\rceil$ means the ceiling. 
+Assume that $\alpha$ is the cost to produce one Plate, and $\beta$ is the cost of the loss of one label. 
+Then, our goals is to obtain the following 
+\begin{equation}\label{eq:TotalCost}
+	\min_{\pi, A \in \Gamma_{\pi}} \{ \alpha|\pi| + \beta E_{A,b} | A \in \Gamma_{\pi} \}
+\end{equation}
+where
+\begin{equation}\label{eq:TotalLoss}
+	E_{A,b} = \sum_{P \in \pi} \sum_{i \in I} \left( \left\lceil \max \left\{ \left.\frac{b_{i}}{A_{P,i}}\right|i \in P \right\} \right\rceil \cdot A_{P,i} - b_{i} \right)
+\end{equation}
+means the total number of losses of labels.
 
+Naturally, the complete enumeration using combinations with repetition is the surest way. 
+However, this method has a problem of taking too much time. 
+For instance, when $n=65$ and $k = 24$, the combination with repetition $_{65}H_{24}$ comprises $2.36 \times 10^{21}$ cases, 
+and the calculation of the cases takes more than 658 hours, that is, more than 27 days using a super computer that can calculate $10^{15}$ partitions per second. 
+Given that there are limits of the time from the date of receipt of orders to the delivery date, this is a very long computation time.
 
+In this algorithm, this problem was solved by introducing any positive integers as tolerances. 
+Tolerances means the allowed amount of losses occurring in each plate. 
+Adopting a partition that does not exceed the tolerance will dramatically reduce the time taken.
+
+Based on the foregoing, the flowchart of the algorithm can be set forth as follows. 
+This algorithm outputs matrix $A$ containing the label of each product when $I$ and ${\bf b}$ have been inputted for $z$, $k$, $num$ (see Fig. 5). 
 
 
 \paragraph{Paragraph headings} Use paragraph headings as needed.
