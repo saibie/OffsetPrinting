@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.7.21)  11 JUN 2019 16:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.7.21)  12 JUN 2019 11:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -628,8 +628,6 @@ LaTeX Info: Redefining \nameref on input line 80.
 SVJour3 warning: Missing \journalname
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <13> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 109.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 109.
 
 Package mathptmx Warning: There are no bold math fonts on input line 109.
 
@@ -653,54 +651,33 @@ LaTeX Warning: The counter will not be printed.
 LaTeX Warning: The counter will not be printed.
              The label is: $\bullet $ on input line 192.
 
-[3]
-Package epstopdf Info: Source file: <example.eps>
-(epstopdf)                    date: 2008-06-12 12:31:30
-(epstopdf)                    size: 304 bytes
-(epstopdf)             Output file: <example-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-01-23 17:20:24
-(epstopdf)                    size: 2390 bytes
-(epstopdf)             Command: <repstopdf --outfile=example-eps-converted-to.p
-df example.eps>
-(epstopdf)             \includegraphics on input line 244.
-Package epstopdf Info: Output file is already uptodate.
-<example-eps-converted-to.pdf, id=49, 202.7575pt x 202.7575pt>
-File: example-eps-converted-to.pdf Graphic file (type pdf)
-<use example-eps-converted-to.pdf>
-Package pdftex.def Info: example-eps-converted-to.pdf  used on input line 244.
-(pdftex.def)             Requested size: 202.757pt x 202.757pt.
-Package epstopdf Info: Source file: <example.eps>
-(epstopdf)                    date: 2008-06-12 12:31:30
-(epstopdf)                    size: 304 bytes
-(epstopdf)             Output file: <example-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-01-23 17:20:24
-(epstopdf)                    size: 2390 bytes
-(epstopdf)             Command: <repstopdf --outfile=example-eps-converted-to.p
-df example.eps>
-(epstopdf)             \includegraphics on input line 254.
-Package epstopdf Info: Output file is already uptodate.
-File: example-eps-converted-to.pdf Graphic file (type pdf)
-<use example-eps-converted-to.pdf>
-Package pdftex.def Info: example-eps-converted-to.pdf  used on input line 254.
-(pdftex.def)             Requested size: 253.5pt x 253.50812pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 303.
- [4] [5 <./example-eps-converted-to.pdf>] [6]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 303.
+[3] [4] [5]
+Underfull \vbox (badness 1910) has occurred while \output is active []
+
+ [6]
+Underfull \hbox (badness 10000) in paragraph at lines 393--394
+[]\OT1/ptm/m/n/8 "Offset print-ing," En-cy-clop^^Z-dia Bri-tan-nica, inc., 19 6
+ 2016. Avail-able:
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 397.
+[7]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 397.
  (./OffsetPrinting.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 303.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 303.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 397.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 397.
 Package rerunfilecheck Info: File `OffsetPrinting.out' has not changed.
-(rerunfilecheck)             Checksum: 7A6E7FF771EEFD0181C574EEF13BCFC3;168.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 303.
+(rerunfilecheck)             Checksum: FE7B3E3BA93BD64B1BAE5099D6DDA557;252.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 397.
  ) 
 Here is how much of TeX's memory you used:
- 9075 strings out of 492649
- 128192 string characters out of 6131492
- 264557 words of memory out of 5000000
- 12757 multiletter control sequences out of 15000+600000
- 37231 words of font info for 87 fonts, out of 8000000 for 9000
+ 9084 strings out of 492649
+ 128178 string characters out of 6131492
+ 265541 words of memory out of 5000000
+ 12754 multiletter control sequences out of 15000+600000
+ 37913 words of font info for 88 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,9n,28p,3246b,406s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 28i,8n,28p,3246b,454s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/usr/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/usr/texlive/2
 018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/usr/texlive/2018/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/usr/texlive/2018/texmf-
@@ -710,10 +687,10 @@ type1/urw/symbol/usyr.pfb><c:/usr/texlive/2018/texmf-dist/fonts/type1/urw/symbo
 l/usyr.pfb><c:/usr/texlive/2018/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:
 /usr/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/usr/texlive/2
 018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on OffsetPrinting.pdf (6 pages, 93603 bytes).
+Output written on OffsetPrinting.pdf (7 pages, 101107 bytes).
 PDF statistics:
- 128 PDF objects out of 1000 (max. 8388607)
- 108 compressed objects within 2 object streams
- 42 named destinations out of 1000 (max. 500000)
- 30 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 151 PDF objects out of 1000 (max. 8388607)
+ 131 compressed objects within 2 object streams
+ 51 named destinations out of 1000 (max. 500000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
