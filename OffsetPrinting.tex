@@ -228,7 +228,7 @@ Prior to describing the label printing process, we define the following terms fi
 The offset label printing process is as follows. At first, we receive orders from customers. The order includes many types of labels to be printed and order-quantities by type (see Figure \ref{fig:Order_Sorting}). Thereafter, offset printing plates are made. Many types of labels are placed on each plate so that many labels are printed at one printing. When the plates have been made, the printing operation is carried out so that individual labels are produced in quantities not smaller than the order-quantities using individual plates. As the final process, the sheets are cut to the sizes of labels and labels are collected by type.
 
 \subsection{Major points for cost saving}\label{subsec:CostSave}
-The constraint conditions and major points that will be considered in this paper for cost saving are as follows. First, one type of label should be placed on one plate only. This is to prevent different types of labels from being mixed when collected by type after the printed sheets are cut. Meanwhile, the total number of labels placed on each plate is also constant because the sizes of individual plates are constant and the sizes of labels in one order are also constant. In addition, the number of plates should be minimized as little as possible because plates are made using molds and the costs are high. Finally, the losses of labels printed should be minimized because bar-codes which are used only one time are printed in the labels and if the inventory remains, they cannot be used and should be entirely discarded.
+The constraint conditions and major points that will be considered in this paper for cost saving are as follows. First, one type of label should be placed on only one plate. This is to prevent different types of labels from being mixed when collected by type after the printed sheets are cut. Meanwhile, the total number of labels placed on each plate is also constant because the sizes of individual plates are constant and the sizes of labels in one order are also constant. In addition, the number of plates should be minimized as little as possible because plates are made using molds and the costs are high. Finally, the losses of labels printed should be minimized because bar-codes which are used only one time are printed in the labels and if the inventory remains, they cannot be used and should be entirely discarded.
 
 \subsection{Sorting report output program}\label{subsec:SortProgram}
 Plate fabrication and the use of printing paper incur costs. In order to reduce the costs, order details are inputted to output appropriate methods to place labels on the plate as sorting reports. The plate makers produce plates according to the instructions in the sorting reports (see Figure \ref{fig:Order_Sorting}).
@@ -252,7 +252,7 @@ To accurately formulate our problem as a mathematical optimization problem, we f
 	\item $\pi$ is a partition of $I$ such that $1 \leq  |P| \leq k$ for any $P \in \pi$. 
 	\item Let $\Gamma_{\pi}$ be a set of matrix $A \in {\rm Mat}_{\pi \times I}(\mathbf{Z})$ satisfy the following:
 	\begin{description}[-]
-		\item For all $(P,i) \in \pi \times I$, $A_{P,i} \leq 0$, and $A_{P,i} = 0$ if and only if $i \notin P$.
+		\item For all $(P,i) \in \pi \times I$, $A_{P,i} \geq 0$, and $A_{P,i} = 0$ if and only if $i \notin P$.
 		\item For each $P \in \pi$, $\sum_{i \in P}A_{P, i} = k$
 \end{description}
 \end{enumerate}
@@ -265,7 +265,7 @@ is the number of printing of Plate $P$, where $\lceil~\rceil$ means the ceiling.
 Assume that $\alpha$ is the cost to produce one Plate, and $\beta$ is the cost of the loss of one label. 
 Then, our goals is to obtain the following 
 \begin{equation}\label{eq:TotalCost}
-	\min_{\pi, A \in \Gamma_{\pi}} \{ \alpha|\pi| + \beta E_{A,b} | A \in \Gamma_{\pi} \}
+	\min_{\pi} \{ \alpha|\pi| + \beta E_{A,b} | A \in \Gamma_{\pi} \}
 \end{equation}
 where
 \begin{equation}\label{eq:TotalLoss}

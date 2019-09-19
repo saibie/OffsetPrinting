@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.7.21)  17 JUN 2019 17:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.7.21)  2 SEP 2019 16:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -855,11 +855,11 @@ Package rerunfilecheck Info: File `OffsetPrinting.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 517.
  ) 
 Here is how much of TeX's memory you used:
- 10271 strings out of 492649
- 149610 string characters out of 6131492
- 284852 words of memory out of 5000000
+ 10268 strings out of 492649
+ 149592 string characters out of 6131492
+ 284856 words of memory out of 5000000
  13895 multiletter control sequences out of 15000+600000
- 38665 words of font info for 91 fonts, out of 8000000 for 9000
+ 36801 words of font info for 88 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  36i,9n,39p,3246b,413s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/usr/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/usr/texlive/2
@@ -871,7 +871,7 @@ type1/urw/symbol/usyr.pfb><c:/usr/texlive/2018/texmf-dist/fonts/type1/urw/symbo
 l/usyr.pfb><c:/usr/texlive/2018/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:
 /usr/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/usr/texlive/2
 018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on OffsetPrinting.pdf (11 pages, 498136 bytes).
+Output written on OffsetPrinting.pdf (11 pages, 498269 bytes).
 PDF statistics:
  230 PDF objects out of 1000 (max. 8388607)
  178 compressed objects within 2 object streams
