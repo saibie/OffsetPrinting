@@ -395,11 +395,10 @@ This example was described to help the understanding of the problem. In this sec
 
 \section{Result}\label{sec:Result}
 
-Each sorting report indicates the number of losses corresponding to one plate. 
-Using this, the total cost can be obtained by replacing all plates with losses. 
-We used 30 sorting report samples and it could be seen that the total cost decreased further 
-when the algorithm in this study was applied than when the algorithm of the manufacturer was applied for all samples. 
-It was identified that when the improved algorithm was used, the total cost was reduced by from minimum 0.4\%(sample no. 15) to maximum 15.96\%(sample no. 8) (see Figure \ref{fig:Comparing}).
+Each sorting report include the number of losses corresponding to one plate. 
+Using this, the total cost can be calculated by replacing each plate with loss. 
+We used 30 sorting report samples. The algorithm can be improved for every sample data.
+The total cost was reduced by from minimum 0.4\%(sample no. 15) to maximum 15.96\%(sample no. 8) (see Figure \ref{fig:Comparing}).
 
 \begin{figure}[h!]
 	\centering
@@ -408,7 +407,7 @@ It was identified that when the improved algorithm was used, the total cost was 
 	\label{fig:Comparing}       % Give a unique label
 \end{figure}
 
-We used a paired t-test to verify the efficiency of the algorithm. The pared t-test is two sample t-test, and it is a test that verifies whether the two groups are different. The data were provided by the aforementioned company, and the two populations are as follows.
+We used the {\it paired t-test} to verify the efficiency of the algorithm. The pared t-test is one of the {\it two sample t-test}, and it is a test that verifies whether the two groups are different. The two populations are as follows.
 
 \begin{enumerate}[$\bullet$]
 	\item population1: total cost before applying the algorithm
@@ -417,10 +416,14 @@ We used a paired t-test to verify the efficiency of the algorithm. The pared t-t
 	\item sample2: sample of 30 items from population2
 \end{enumerate}
 
-In order to proceed with the two-sample t-test, the two groups must first satisfy the normality and homoscedasticity. The number of samples extracted from the two populations is 30, which can be said to have normality based on the central limit theorem. In addition, we identified the homoscedasticity of the two samples through the var.test of R.
+In order to proceed with the two-sample t-test, the two groups have to satisfy the normality and homoscedasticity. We choose $30$ sample data from the two populations, which can be satisfied the normality by the {\it central limit theorem}.
+In addition, we identified the homoscedasticity of the two samples through the {\it var.test} of R. 
+R is a programming language and free software environment for statistical computing and graphics supported by the R Foundation for Statistical Computing. The R language is widely used among statisticians and data miners for developing statistical software and data analysis.
 
-The null hypothesis $(H_{0})$ of var.test is that 'the variances of the two groups are equal', and the alternative hypothesis$(H_{1})$ is that 'the variances of the two groups are different'. 
-If the p-value is below the significance level, the null hypothesis $(H_{0})$ will be rejected and if the p-value is not lower than the significance level, the alternative hypothesis $(H_{1})$ will be rejected.  The result of var.test with the significance level to 0.05 is as follows.
+
+
+The null hypothesis $(H_{0})$ of var.test is that `the variances of the two groups are equal`, and the alternative hypothesis $(H_{1})$ is that `the variances of the two groups are different`. 
+If the p-value is below the significance level, the null hypothesis $(H_{0})$ will be rejected and if the p-value is not lower than the significance level, the alternative hypothesis $(H_{1})$ will be rejected.  The result of var.test with the significance level to 0.05 is as follows.(see Figure \ref{fig:vartest}.)
 
 \begin{figure}[h!]
 	\centering
@@ -429,10 +432,10 @@ If the p-value is below the significance level, the null hypothesis $(H_{0})$ wi
 	\label{fig:vartest}       % Give a unique label
 \end{figure}
 
-Since the p-value is not lower than the significance level(0.05), the alternative hypothesis $(H_{1})$ is rejected and the null hypothesis $(H_{0})$ is adopted. 
-That is, the variances of the two groups can be said to be equal.
+Since the p-value is not lower than the significance level(0.05), the alternative hypothesis $(H_{1})$ is rejected and the null hypothesis $(H_{0})$ is accepted. 
+We say that the variances of the two groups can be equal.
 
-Since the two groups satisfy normality and homoscedasticity, we verified whether the difference between the two groups is significant through paired t-test. In this test, the null hypothesis $(H_{0})$ is ‘the total cost will be the same after applying the algorithm.’ and the alternative hypothesis $(H_{1})$ is ‘the total cost will be reduced after applying algorithm.’ The result of the paired t-test with the significance level to 0.05 is as follows.
+Since the two groups satisfy normality and homoscedasticity, we verified whether the difference between the two groups is significant through paired t-test. In this test, the null hypothesis $(H_{0})$ is `the total cost will be the same after applying the algorithm.` and the alternative hypothesis $(H_{1})$ is `the total cost will be reduced after applying algorithm.` The result of the paired t-test with the significance level to 0.05 is as follows.(see Figure \ref{fig:ttest}.)
 
 \begin{figure}[h!]
 	\centering
@@ -441,7 +444,7 @@ Since the two groups satisfy normality and homoscedasticity, we verified whether
 	\label{fig:ttest}       % Give a unique label
 \end{figure}
 
-Since the p-value is below the significance level(0.05), the null hypothesis $(H_{0})$ is rejected and the alternative hypothesis $(H_{1})$ is adopted. That is, the difference between the two groups can be said to be significant.
+Since the p-value is below the significance level(0.05), the null hypothesis $(H_{0})$ is rejected and the alternative hypothesis $(H_{1})$ is accepted. We say that the difference between the two groups can be significant.
 
 {\bf Notice.} Please note that the detailed idea of the algorithm cannot be described for confidentiality of the company.
 
