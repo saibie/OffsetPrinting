@@ -140,11 +140,12 @@ grestore
 
 \begin{abstract}
 One of the most classic problems in the manufacturing industry is inventory processing. 
-The best method to solve the problem is not to make any inventory. 
-There is a way to effectively reduce inventory by merely changing the array of the pieces on the printing plates in the offset printing. 
-It is setting an upper limit of acceptable for each plate and carrying out complete enumeration. 
-These method reduce the accuracy, but dramatically reduces the operating time of the algorithm. 
-The strength of this method lies in the fact that there is only change the arrangement of the pieces inside the plates.
+%The best method to solve the problem is not to make any inventory. 
+There is a way to effectively reduce inventory by %merely 
+changing the array of the pieces on the printing plates in the offset printing. 
+It is setting an upper limit of acceptable for each plate, and carrying out complete enumeration. 
+This method dramatically reduces the operating time of the algorithm. 
+The adventage of this method is that there is only change the arrangement of the pieces on the plates.
 %subject classification numbers as needed.
 \keywords{Offset Printings \and Combinations with Repetition \and Label Arrangements \and Inventory Managements}
 % \PACS{PACS code1 \and PACS code2 \and more}
@@ -152,12 +153,12 @@ The strength of this method lies in the fact that there is only change the arran
 \end{abstract}
 
 \section{Introduction}\label{sec:intro}
-A combinations with repetition is the number of cases, where $k$ elements are selected from among different $n$ elements allowing repetition \cite{Brualdi2004}. 
+A combination with repetition is the number of cases, where $k$ elements are selected from among different $n$ elements allowing repetition \cite{Brualdi2004}. 
 It is indicated with the symbol $_{n}H_{k}$ and the following is established.
 \begin{equation}
 	_{n}H_{k} = _{n+k-1}C_{k} = \frac{(n+k-1)!}{(n-1)!k!}
 \end{equation}
-For instance, the combinations with repetition $_{2}H_{4}$ to select four elements from among two elements A and B comprises the following five cases.
+For instance, the combination with repetition $_{2}H_{4}$ to select four elements from among two elements A and B comprises the following five cases.
 \begin{enumerate}[(1)]
 	\item $\textrm{[A, A, A, A]}$ : a list consisting of four A's
 	\item $\textrm{[A, A, A, B]}$ : a list consisting of three A's and one B
@@ -166,13 +167,13 @@ For instance, the combinations with repetition $_{2}H_{4}$ to select four elemen
 	\item $\textrm{[B, B, B, B]}$ : a list consisting of four B's
 \end{enumerate}
 Among the above cases, if we want to obtain three A's and nine B's, then we can choose $[\textrm{A, B, B, B}] \times 3$. 
-Let us consider the following.
-\begin{equation}
+Also, we consider the following as another case.
+\begin{equation}\label{eq:3lists}
 	\textrm{[A, A, B, B]} \times 1 + \textrm{[A, B, B, B]} \times 1 + \textrm{[B, B, B, B]} \times 1
 \end{equation}
 In this case, we can get the three A's and nine B's. 
-However, the former case seems to be a ‘Better’ because making three different lists is inefficient. 
-Let us examine another case.
+However, the former case seems to be a ‘Better’ because there are three different lists in (\ref{eq:3lists}). 
+Let us examine the other case.
 \begin{equation}
 \textrm{[A, A, A, A]} \times 1 + \textrm{[B, B, B, B]} \times 3 - \textrm{[A]} \times 1 - \textrm{[B]} \times 3
 \end{equation}
@@ -192,9 +193,11 @@ The rubber cylinder gives great flexibility, permitting printing on wood, cloth,
 	\label{fig:OffsetPrint}
 \end{figure}
 
-Offset lithography is one of the most common ways of creating printed materials. A few of its common applications include: newspapers, magazines, brochures, stationery, and books. Compared to other printing methods, offset printing is best suited for economically producing large volumes of high quality prints in a manner that requires little maintenance \cite{Kipphan2001}. Therefore, how to make the initial plates is an important issue. Above example means that what is the best arrangement in such print method.
+Offset printing is one of the most common ways of creating printed materials. A few of its common applications include: newspapers, magazines, brochures, stationery, and books. Compared to other printing methods, offset printing is best suited for economically producing large volumes of high quality prints in a manner that requires little maintenance \cite{Kipphan2001}. Therefore, how to make the initial plates is an important issue. Above example means that what is the best arrangement in such print method.
 
-In the past, production was based on ordering of products from companies. For instance, apparel companies stocked popular products in warehouses. If the companies didn't have inventory, then consumers could not obtain rare sized or unpopular products. However, as the Internet market has became popular, the production systems have been changed into systems. Factories do not produce products based on their prediction of consumption but do produce only ordered products.
+In the past, production was based on ordering of products from companies and predictions of consumption. 
+However, as the internet market has became popular, the production systems have been changed by consumers. 
+Now, many factories produce only products ordered by consumers.
 
 World Komax is a company that produces labels using the offset printing. The labels refer to stickers containing bar-codes attached to garments or shoes as follows (see Figure \ref{fig:AirHuarache}). Each bar-code in the label contains fixed information such as product names and colors, and variable information such as the date of manufacture.
 
@@ -205,6 +208,7 @@ World Komax is a company that produces labels using the offset printing. The lab
 	\label{fig:AirHuarache}       % Give a unique label
 \end{figure}
 
+\noindent
 Since the program of World Komax is not suitable for small quantity batch productions, the number of labels loss increased compared to the past.
 
 Section 2 of this paper will describe the process of label printing using offsets. The modeling of the problem will be carried out in Section 3, and examples to help the understanding of the problem will be prepared in Section 4. The final results of the algorithm will be described in Section 5. 
