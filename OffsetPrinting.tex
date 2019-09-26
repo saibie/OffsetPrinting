@@ -229,13 +229,13 @@ Prior to describing the label printing process, we define the following terms fi
 	\label{fig:PlateLabel}       % Give a unique label
 \end{wrapfigure}
 
-The offset label printing process is as follows. At first, we receive orders from customers. The order includes many types of labels to be printed and order-quantities by type (see Figure \ref{fig:Order_Sorting}). Thereafter, offset printing plates are made. Many types of labels are placed on each plate so that many labels are printed at one printing. When the plates have been made, the printing operation is carried out so that individual labels are produced in quantities not smaller than the order-quantities using individual plates. As the final process, the sheets are cut to the sizes of labels and labels are collected by type.
+The offset label printing process is as follows. At first, we receive orders from customers. The order includes many types of labels and order-quantities by type (see Figure \ref{fig:Order_Sorting}). Thereafter, offset printing plates are made. Many types of labels are placed on each plate so that many labels are printed at one printing. After the plates are made, we produce more labels than order-quantities using each plate. Then, the sheets are cut to the sizes of labels. As the final process, the labels are collected by type.
 
 \subsection{Major points for cost saving}\label{subsec:CostSave}
-The constraint conditions and major points that will be considered in this paper for cost saving are as follows. First, one type of label should be placed on only one plate. This is to prevent different types of labels from being mixed when collected by type after the printed sheets are cut. Meanwhile, the total number of labels placed on each plate is also constant because the sizes of individual plates are constant and the sizes of labels in one order are also constant. In addition, the number of plates should be minimized as little as possible because plates are made using molds and the costs are high. Finally, the losses of labels printed should be minimized because bar-codes which are used only one time are printed in the labels and if the inventory remains, they cannot be used and should be entirely discarded.
+The constraint conditions and major points that will be considered in this paper for cost saving are as follows. First, one type of label should be placed on only one plate. This is to prevent different types of labels from being mixed when collected by type after the printed sheets are cut. Meanwhile, the total number of labels placed on each plate is also constant because the sizes of individual plates are constant and the sizes of labels in one order are also constant. In addition, the number of plates should be minimized as little as possible because plates are made using molds and the costs are high. Finally, the Loss should be minimized because overprinted labels cannot be used and should be entirely discarded.
 
-\subsection{Sorting report output program}\label{subsec:SortProgram}
-Plate fabrication and the use of printing paper incur costs. In order to reduce the costs, order details are inputted to output appropriate methods to place labels on the plate as sorting reports. The plate makers produce plates according to the instructions in the sorting reports (see Figure \ref{fig:Order_Sorting}).
+\subsection{Sorting reports output program}\label{subsec:SortProgram}
+Plate fabrication and the use of printing paper incur costs. To reduce the costs, order details are inputted to output appropriate methods to place labels on the plate as sorting reports. The plate makers produce plates according to the instructions in the sorting reports (see Figure \ref{fig:Order_Sorting}).
 
 Since the existing sorting report output method was not suitable for small quantity batch production systems, the algorithm should be improved. Therefore, this study was conducted to develop new algorithms suitable for small quantity batch production systems too.
 
@@ -247,7 +247,7 @@ Since the existing sorting report output method was not suitable for small quant
 \end{figure}
 
 \section{Modeling and flowchart}\label{sec:Modeling}
-To accurately formulate our problem as a mathematical optimization problem, we first need to define our notation.
+To formulate our problem as a mathematical optimization problem, we first need to define our notation.
 \begin{enumerate}[$\bullet$]
 	\item Let $I$ be a set of products.
 	\item For each product $i \in I$, let $b_{i}$ be the number of order.
@@ -353,7 +353,7 @@ This example was described to help the understanding of the problem. In this sec
 	\left\lceil \max\left\{ \left. \frac{b_{i}}{A_{P,i}} \right| i \in P \right\} \right\rceil = \left\lceil \max \left\{ \frac{50}{2}, \frac{30}{1}, \frac{20}{1} \right\} \right\rceil = 30.
 	\end{equation}
 	In addition, it can be easily seen that the total number of Loss $E_{A,{\bf b}}$ is 20 (see Figure \ref{fig:ex12}).
-	Figure \ref{fig:ex12} is a more efficient because its Loss is the same but its number of Plates is smaller.
+	The array shown in Figure \ref{fig:ex12} is a more efficient because its Loss is the same but its number of Plates is smaller.
 	\begin{figure}[h!]
 		\centering
 		\includegraphics[width=3cm]{ex12.pdf}
@@ -384,7 +384,7 @@ This example was described to help the understanding of the problem. In this sec
 	\left\lceil \max\left\{ \left. \frac{b_{i}}{A_{P,i}} \right| i \in P \right\} \right\rceil = \left\lceil \max \left\{ \frac{50}{3}, \frac{20}{1} \right\} \right\rceil = 20.
 	\end{equation}
 	and the total number of Loss $E_{A,{\bf b}}$ is 10 (see Figure \ref{fig:ex22}).
-	Figure \ref{fig:ex22} is more efficient because its number of Plate is the same but fewer losses occur.
+	The array shown in Figure \ref{fig:ex22} is more efficient because its number of Plate is the same but fewer losses occur.
 	\begin{figure}[h!]
 		\centering
 		\includegraphics[width=3cm]{ex22.pdf}
