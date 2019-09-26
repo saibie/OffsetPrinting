@@ -193,7 +193,9 @@ The rubber cylinder gives great flexibility, permitting printing on wood, cloth,
 	\label{fig:OffsetPrint}
 \end{figure}
 
-Offset printing is one of the most common ways of creating printed materials. A few of its common applications include: newspapers, magazines, brochures, stationery, and books. Compared to other printing methods, offset printing is best suited for economically producing large volumes of high quality prints in a manner that requires little maintenance \cite{Kipphan2001}. Therefore, how to make the initial plates is an important issue. Above example means that what is the best arrangement in such print method.
+Offset printing is one of the most common ways of creating printed materials. A few of its common applications include: newspapers, magazines, brochures, stationery, and books. Compared to other printing methods, offset printing is best suited for economically producing large volumes of high quality prints in a manner that requires little maintenance \cite{Kipphan2001}. 
+To improve printing process, there were many researches in \cite{AlChan, Muscle, Carmo}.
+As an other improving, how to make the initial plates is an important issue. Above example means that what is the best arrangement in such print method.
 
 In the past, production was based on ordering of products from companies and predictions of consumption. 
 However, as the internet market has became popular, the production systems have been changed by consumers. 
@@ -278,19 +280,19 @@ where
 means the total number of losses of labels.
 
 Naturally, the complete enumeration using combinations with repetition is the surest way. 
-However, this method has a problem of taking too much time. 
-For instance, when $n=65$ and $k = 24$, the combination with repetition $_{65}H_{24}$ comprises $2.36 \times 10^{21}$ cases, 
-and the calculation of the cases takes more than 658 hours, that is, more than 27 days using a super computer that can calculate $10^{15}$ partitions per second. 
+However, this method has a problem that it takes too much time. 
+For instance, when $n=65$ and $k = 24$, the combination with repetition $_{65}H_{24}$ comprises about $2.36 \times 10^{21}$ cases.
+Then, the calculation of the cases takes more than 658 hours, that is, more than 27 days using a super computer that can calculate $10^{15}$ partitions per second. 
 Given that there are limits of the time from the date of receipt of orders to the delivery date, this is a very long computation time.
 
-In this algorithm, this problem was solved by introducing any positive integers as tolerances. 
-Tolerances means the allowed amount of losses occurring in each plate. 
-Adopting a partition that does not exceed the tolerance will dramatically reduce the time taken.
+In this algorithm, this problem was solved by introducing any positive integers as thresholds. 
+Thresholds mean the allowed amount of losses occurring in each plate. 
+Adopting a partition that does not exceed the threshold will dramatically reduce the time taken.
 
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=3cm]{MainFChart.pdf}
-	\caption{The Main Flow Chart}
+	\caption{The Main Flowchart}
 	\label{fig:MFChart}       % Give a unique label
 \end{figure}
 
@@ -300,19 +302,20 @@ This algorithm outputs matrix $A$ containing the label of each product when $I$ 
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=5cm]{SubFChart.pdf}
-	\caption{The Flow Chart of Loop}
+	\caption{The Flowchart of Loop}
 	\label{fig:SFChart}       % Give a unique label
 \end{figure}
 
-Meanwhile, in the case of the ${loop}(k, z, num)$ function, the following flowchart should be followed.
+Meanwhile, in the case of the ${loop}(k, z, num)$ function, the flowchart in Figure \ref{fig:SFChart} should be followed.
 First, the ${Part}(k, num)$ function finds partitions using the combination with repetition $_{num}H_{k}$ 
-(method to select $k$ pieces of products from $num$ pieces of products allowing repetition) and indicated in the form of a list. 
+%(method to select $k$ pieces of products from $num$ pieces of products allowing repetition)
+and indicated in the form of a list. 
 We set the result as {\it Part\underline{ }list}. 
 An appropriate $P$ that has $num$ pieces of products is selected from $I$ and the loss is obtained using {\it Part\underline{ }list} and the printing number.
 
-If the loss exceeds the tolerance $z$, another {\it Part\underline{ }list} will be selected and the foregoing will be repeated 
-while adjusting $num$ until the tolerance is not exceeded.
-As a result of this process, $A_{P,i}$ that does not exceed the tolerance is obtained (see Figure \ref{fig:SFChart}).
+If the loss exceeds the threshold $z$, another {\it Part\underline{ }list} will be selected and the foregoing will be repeated 
+while adjusting $num$ until the threshold is not exceeded.
+As a result of this process, $A_{P,i}$ whose loss does not exceed the threshold is obtained.% (see Figure \ref{fig:SFChart}).
 
 
 
@@ -395,7 +398,7 @@ This example was described to help the understanding of the problem. In this sec
 
 \section{Result}\label{sec:Result}
 
-Each sorting report include the number of losses corresponding to one plate. 
+Each sorting report includes the number of losses corresponding to one plate. 
 Using this, the total cost can be calculated by replacing each plate with loss. 
 We used 30 sorting report samples. The algorithm can be improved for every sample data.
 The total cost was reduced by from minimum 0.4\%(sample no. 15) to maximum 15.96\%(sample no. 8) (see Figure \ref{fig:Comparing}).
@@ -407,7 +410,7 @@ The total cost was reduced by from minimum 0.4\%(sample no. 15) to maximum 15.96
 	\label{fig:Comparing}       % Give a unique label
 \end{figure}
 
-We used the {\it paired t-test} to verify the efficiency of the algorithm. The pared t-test is one of the {\it two sample t-test}, and it is a test that verifies whether the two groups are different. The two populations are as follows.
+We used the {\it paired t-test}\cite{Rice} to verify the efficiency of the algorithm. The pared t-test is one of the two sample t-test, and it is a test that verifies whether the two groups are different. The two populations are as follows.
 
 \begin{enumerate}[$\bullet$]
 	\item population1: total cost before applying the algorithm
@@ -418,12 +421,13 @@ We used the {\it paired t-test} to verify the efficiency of the algorithm. The p
 
 In order to proceed with the two-sample t-test, the two groups have to satisfy the normality and homoscedasticity. We choose $30$ sample data from the two populations, which can be satisfied the normality by the {\it central limit theorem}.
 In addition, we identified the homoscedasticity of the two samples through the {\it var.test} of R. 
-R is a programming language and free software environment for statistical computing and graphics supported by the R Foundation for Statistical Computing. The R language is widely used among statisticians and data miners for developing statistical software and data analysis.
+R is a programming language and free software environment for statistical computing and graphic. % supported by the R Foundation for Statistical Computing. 
+%The R language is widely used among statisticians and data miners for developing statistical software and data analysis.
 
 
 
 The null hypothesis $(H_{0})$ of var.test is that `the variances of the two groups are equal`, and the alternative hypothesis $(H_{1})$ is that `the variances of the two groups are different`. 
-If the p-value is below the significance level, the null hypothesis $(H_{0})$ will be rejected and if the p-value is not lower than the significance level, the alternative hypothesis $(H_{1})$ will be rejected.  The result of var.test with the significance level to 0.05 is as follows.(see Figure \ref{fig:vartest}.)
+If the p-value is below the significance level, the null hypothesis $(H_{0})$ will be rejected and if the p-value is not lower than the significance level, the alternative hypothesis $(H_{1})$ will be rejected.  The result of var.test with the significance level to 0.05 is as follows (see Figure \ref{fig:vartest}).
 
 \begin{figure}[h!]
 	\centering
@@ -435,7 +439,7 @@ If the p-value is below the significance level, the null hypothesis $(H_{0})$ wi
 Since the p-value is not lower than the significance level(0.05), the alternative hypothesis $(H_{1})$ is rejected and the null hypothesis $(H_{0})$ is accepted. 
 We say that the variances of the two groups can be equal.
 
-Since the two groups satisfy normality and homoscedasticity, we verified whether the difference between the two groups is significant through paired t-test. In this test, the null hypothesis $(H_{0})$ is `the total cost will be the same after applying the algorithm.` and the alternative hypothesis $(H_{1})$ is `the total cost will be reduced after applying algorithm.` The result of the paired t-test with the significance level to 0.05 is as follows.(see Figure \ref{fig:ttest}.)
+Since the two groups satisfy normality and homoscedasticity, we verified whether the difference between the two groups is significant through paired t-test. In this test, the null hypothesis $(H_{0})$ is `the total cost will be the same after applying the algorithm.' and the alternative hypothesis $(H_{1})$ is `the total cost will be reduced after applying algorithm.' The result of the paired t-test with the significance level to 0.05 is as follows (see Figure \ref{fig:ttest}).
 
 \begin{figure}[h!]
 	\centering
@@ -518,7 +522,16 @@ R. A. Brualdi, Introductory Combinatorics, Pearson Prentice Hall (2004)
 H. Kipphan, Handbook of Print Media: Technologies and Production Methods, Springer (2001)
 \bibitem{OffsetPrint}
 ``Offset printing'', Encyclop{\ae}dia Britannica, inc., 19-06-2016.\\ url: https://www.britannica.com/technology/offset-printing.
-
+\bibitem{AlChan}
+Albert W. Chan, P. W. Udo Graefe, An interactive sequencing aid for printing presses, Computers and Industrial Engineering, 3(4):321--325, 1979.
+\bibitem{Muscle}
+K. J. Musselman, Complex scheduling of a printing process, Computers and Industrial Engineering, 39(3--4):273--291, 2001.
+\bibitem{Carmo}
+Andriele Busatto do Carmo, Mateus Raeder, Thiago Nunes, Mariana Kolberg, Luiz Gustavo Fernandes, A job profile oriented scheduling architecture for improving the throughput of industrial printing environments, Computers and Industrial Engineering, 88:191--205, 2015.
+\bibitem{Rice}
+John A. Rice, Mathematical Statistics and Data Analysis (3rd ed.). Duxbury Advanced. p444-452 (2006).
+\bibitem{Durrett}
+Richard Durrett, Probability: theory and examples 4ed. Cambridge University Press. p124-132 (2004).
 \end{thebibliography}
 
 \end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.7.21)  26 SEP 2019 15:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.7.21)  26 SEP 2019 17:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -695,57 +695,57 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 pdfTeX warning: pdflatex.exe (file ./AirHuarache.pdf): PDF inclusion: found PDF
  version <1.7>, but at most version <1.5> allowed
-<AirHuarache.pdf, id=58, 203.25937pt x 100.87688pt>
+<AirHuarache.pdf, id=60, 203.25937pt x 100.87688pt>
 File: AirHuarache.pdf Graphic file (type pdf)
 <use AirHuarache.pdf>
-Package pdftex.def Info: AirHuarache.pdf  used on input line 206.
+Package pdftex.def Info: AirHuarache.pdf  used on input line 208.
 (pdftex.def)             Requested size: 184.9429pt x 91.79039pt.
 
 LaTeX Warning: The counter will not be printed.
-             The label is: * on input line 221.
+             The label is: * on input line 223.
 
 [3 <./OffsetPrint.pdf> <./AirHuarache.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./PlateLabel.pdf): PDF inclusion: found PDF 
 version <1.7>, but at most version <1.5> allowed
-<PlateLabel.pdf, id=71, 158.09062pt x 171.64125pt>
+<PlateLabel.pdf, id=73, 158.09062pt x 171.64125pt>
 File: PlateLabel.pdf Graphic file (type pdf)
 <use PlateLabel.pdf>
-Package pdftex.def Info: PlateLabel.pdf  used on input line 227.
+Package pdftex.def Info: PlateLabel.pdf  used on input line 229.
 (pdftex.def)             Requested size: 113.81102pt x 123.56848pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./OrderForm.pdf): PDF inclusion: found PDF v
 ersion <1.7>, but at most version <1.5> allowed
-<OrderForm.pdf, id=74, 185.94469pt x 140.02313pt>
+<OrderForm.pdf, id=76, 185.94469pt x 140.02313pt>
 File: OrderForm.pdf Graphic file (type pdf)
 <use OrderForm.pdf>
-Package pdftex.def Info: OrderForm.pdf  used on input line 244.
+Package pdftex.def Info: OrderForm.pdf  used on input line 246.
 (pdftex.def)             Requested size: 185.94421pt x 140.02278pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./SortingReport.pdf): PDF inclusion: found P
 DF version <1.7>, but at most version <1.5> allowed
-<SortingReport.pdf, id=75, 206.27063pt x 133.24782pt>
+<SortingReport.pdf, id=77, 206.27063pt x 133.24782pt>
 File: SortingReport.pdf Graphic file (type pdf)
 <use SortingReport.pdf>
-Package pdftex.def Info: SortingReport.pdf  used on input line 244.
+Package pdftex.def Info: SortingReport.pdf  used on input line 246.
 (pdftex.def)             Requested size: 206.27011pt x 133.24748pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is: $\bullet $ on input line 251.
+             The label is: $\bullet $ on input line 253.
 
 [4 <./PlateLabel.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./MainFChart.pdf): PDF inclusion: found PDF 
 version <1.7>, but at most version <1.5> allowed
-<MainFChart.pdf, id=87, 127.97812pt x 298.11375pt>
+<MainFChart.pdf, id=90, 127.97812pt x 298.11375pt>
 File: MainFChart.pdf Graphic file (type pdf)
 <use MainFChart.pdf>
-Package pdftex.def Info: MainFChart.pdf  used on input line 292.
+Package pdftex.def Info: MainFChart.pdf  used on input line 294.
 (pdftex.def)             Requested size: 85.35826pt x 198.8345pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -754,72 +754,72 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 pdfTeX warning: pdflatex.exe (file ./SubFChart.pdf): PDF inclusion: found PDF v
 ersion <1.7>, but at most version <1.5> allowed
-<SubFChart.pdf, id=89, 237.88875pt x 243.15843pt>
+<SubFChart.pdf, id=92, 237.88875pt x 243.15843pt>
 File: SubFChart.pdf Graphic file (type pdf)
 <use SubFChart.pdf>
-Package pdftex.def Info: SubFChart.pdf  used on input line 302.
+Package pdftex.def Info: SubFChart.pdf  used on input line 304.
 (pdftex.def)             Requested size: 142.26378pt x 145.42126pt.
 [5 <./OrderForm.pdf> <./SortingReport.pdf>] [6 <./MainFChart.pdf> <./SubFChart.
 pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./ex11.pdf): PDF inclusion: found PDF versio
 n <1.7>, but at most version <1.5> allowed
-<ex11.pdf, id=118, 293.59688pt x 184.43906pt>
+<ex11.pdf, id=122, 293.59688pt x 184.43906pt>
 File: ex11.pdf Graphic file (type pdf)
 <use ex11.pdf>
-Package pdftex.def Info: ex11.pdf  used on input line 344.
+Package pdftex.def Info: ex11.pdf  used on input line 347.
 (pdftex.def)             Requested size: 170.71652pt x 107.24489pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./ex12.pdf): PDF inclusion: found PDF versio
 n <1.7>, but at most version <1.5> allowed
-<ex12.pdf, id=122, 143.03438pt x 225.84375pt>
+<ex12.pdf, id=126, 143.03438pt x 225.84375pt>
 File: ex12.pdf Graphic file (type pdf)
 <use ex12.pdf>
-Package pdftex.def Info: ex12.pdf  used on input line 359.
+Package pdftex.def Info: ex12.pdf  used on input line 362.
 (pdftex.def)             Requested size: 85.35826pt x 134.7767pt.
 [7 <./ex11.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./ex21.pdf): PDF inclusion: found PDF versio
 n <1.7>, but at most version <1.5> allowed
-<ex21.pdf, id=137, 137.7647pt x 164.86594pt>
+<ex21.pdf, id=141, 137.7647pt x 164.86594pt>
 File: ex21.pdf Graphic file (type pdf)
 <use ex21.pdf>
-Package pdftex.def Info: ex21.pdf  used on input line 377.
+Package pdftex.def Info: ex21.pdf  used on input line 380.
 (pdftex.def)             Requested size: 85.35826pt x 102.15291pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./ex22.pdf): PDF inclusion: found PDF versio
 n <1.7>, but at most version <1.5> allowed
-<ex22.pdf, id=141, 130.98938pt x 156.585pt>
+<ex22.pdf, id=145, 130.98938pt x 156.585pt>
 File: ex22.pdf Graphic file (type pdf)
 <use ex22.pdf>
-Package pdftex.def Info: ex22.pdf  used on input line 390.
+Package pdftex.def Info: ex22.pdf  used on input line 393.
 (pdftex.def)             Requested size: 85.35826pt x 102.03946pt.
 [8 <./ex12.pdf> <./ex21.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Comparing.pdf): PDF inclusion: found PDF v
 ersion <1.7>, but at most version <1.5> allowed
-<Comparing.pdf, id=154, 426.84468pt x 324.46219pt>
+<Comparing.pdf, id=159, 426.84468pt x 324.46219pt>
 File: Comparing.pdf Graphic file (type pdf)
 <use Comparing.pdf>
-Package pdftex.def Info: Comparing.pdf  used on input line 405.
+Package pdftex.def Info: Comparing.pdf  used on input line 408.
 (pdftex.def)             Requested size: 338.0pt x 256.94612pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is: $\bullet $ on input line 412.
+             The label is: $\bullet $ on input line 415.
 
 
 
 pdfTeX warning: pdflatex.exe (file ./vartest.pdf): PDF inclusion: found PDF ver
 sion <1.7>, but at most version <1.5> allowed
-<vartest.pdf, id=156, 333.49594pt x 118.19156pt>
+<vartest.pdf, id=162, 333.49594pt x 118.19156pt>
 File: vartest.pdf Graphic file (type pdf)
 <use vartest.pdf>
-Package pdftex.def Info: vartest.pdf  used on input line 430.
+Package pdftex.def Info: vartest.pdf  used on input line 434.
 (pdftex.def)             Requested size: 256.0748pt x 90.7589pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -828,10 +828,10 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 pdfTeX warning: pdflatex.exe (file ./ttest.pdf): PDF inclusion: found PDF versi
 on <1.7>, but at most version <1.5> allowed
-<ttest.pdf, id=171, 344.03531pt x 118.19156pt>
+<ttest.pdf, id=177, 344.03531pt x 118.19156pt>
 File: ttest.pdf Graphic file (type pdf)
 <use ttest.pdf>
-Package pdftex.def Info: ttest.pdf  used on input line 442.
+Package pdftex.def Info: ttest.pdf  used on input line 446.
 (pdftex.def)             Requested size: 256.0748pt x 87.97256pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -840,26 +840,26 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [10 <./Comparing.pdf> <./vartest.pdf>]
-Overfull \hbox (14.49411pt too wide) in paragraph at lines 490--494
+Overfull \hbox (14.49411pt too wide) in paragraph at lines 494--498
 \OT1/ptm/m/n/8 grant funded by the Ko-rean Gov-ern-ment (MSIP) (NRF-2017R1A5A10
 15722, NRF-2018R1D1A1B07048197).
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 524.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 537.
 [11 <./ttest.pdf>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 524.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 537.
  (./OffsetPrinting.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 524.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 524.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 537.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 537.
 Package rerunfilecheck Info: File `OffsetPrinting.out' has not changed.
 (rerunfilecheck)             Checksum: FE7B3E3BA93BD64B1BAE5099D6DDA557;252.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 524.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 537.
  ) 
 Here is how much of TeX's memory you used:
- 10269 strings out of 492649
- 149603 string characters out of 6131492
- 284896 words of memory out of 5000000
- 13896 multiletter control sequences out of 15000+600000
+ 10279 strings out of 492649
+ 149694 string characters out of 6131492
+ 285032 words of memory out of 5000000
+ 13901 multiletter control sequences out of 15000+600000
  36801 words of font info for 88 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  36i,9n,39p,3246b,418s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -872,10 +872,10 @@ type1/urw/symbol/usyr.pfb><c:/usr/texlive/2018/texmf-dist/fonts/type1/urw/symbo
 l/usyr.pfb><c:/usr/texlive/2018/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:
 /usr/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/usr/texlive/2
 018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on OffsetPrinting.pdf (11 pages, 499176 bytes).
+Output written on OffsetPrinting.pdf (11 pages, 499555 bytes).
 PDF statistics:
- 233 PDF objects out of 1000 (max. 8388607)
- 181 compressed objects within 2 object streams
- 70 named destinations out of 1000 (max. 500000)
+ 243 PDF objects out of 1000 (max. 8388607)
+ 191 compressed objects within 2 object streams
+ 75 named destinations out of 1000 (max. 500000)
  111 words of extra memory for PDF output out of 10000 (max. 10000000)
 
