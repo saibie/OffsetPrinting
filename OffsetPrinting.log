@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.7.21)  17 OCT 2019 10:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.7.21)  22 OCT 2019 11:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -823,11 +823,11 @@ Package pdftex.def Info: ttest.png  used on input line 447.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [10 <./vartest.png>]
-<Graph_3.png, id=188, 526.96875pt x 395.22656pt>
+<Graph_3.png, id=188, 501.37312pt x 414.79968pt>
 File: Graph_3.png Graphic file (type png)
 <use Graph_3.png>
 Package pdftex.def Info: Graph_3.png  used on input line 468.
-(pdftex.def)             Requested size: 256.0748pt x 192.06458pt.
+(pdftex.def)             Requested size: 256.0748pt x 211.86783pt.
 
 Overfull \hbox (14.49411pt too wide) in paragraph at lines 515--519
 \OT1/ptm/m/n/8 grant funded by the Ko-rean Gov-ern-ment (MSIP) (NRF-2017R1A5A10
@@ -848,7 +848,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 558.
 Here is how much of TeX's memory you used:
  10289 strings out of 492649
  149746 string characters out of 6131492
- 285125 words of memory out of 5000000
+ 285128 words of memory out of 5000000
  13906 multiletter control sequences out of 15000+600000
  36801 words of font info for 88 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -862,7 +862,7 @@ type1/urw/symbol/usyr.pfb><c:/usr/texlive/2018/texmf-dist/fonts/type1/urw/symbo
 l/usyr.pfb><c:/usr/texlive/2018/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:
 /usr/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/usr/texlive/2
 018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on OffsetPrinting.pdf (12 pages, 487338 bytes).
+Output written on OffsetPrinting.pdf (12 pages, 484296 bytes).
 PDF statistics:
  252 PDF objects out of 1000 (max. 8388607)
  199 compressed objects within 2 object streams
