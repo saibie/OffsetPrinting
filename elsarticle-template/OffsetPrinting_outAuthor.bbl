@@ -1,0 +1,41 @@
+\begin{thebibliography}{1}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{Brualdi2004}
+R.~A. Brualdi, Introductory Combinatorics, Pearson Prentice Hall, 2004.
+
+\bibitem{OffsetPrint}
+{Encyclop{\ae}dia Britannica, inc.}, ``offset printing'',
+  https://www.britannica.com/technology/offset-printing (June 2016).
+
+\bibitem{Kipphan2001}
+H.~Kipphan, Handbook of Print Media: Technologies and Production Methods,
+  Springer, 2001.
+
+\bibitem{AlChan}
+A.~W. Chan, P.~W.~U. Graefe, An interactive sequencing aid for printing
+  presses, Computers and Industrial Engineering 3~(4) (1979) 321--325.
+
+\bibitem{Muscle}
+K.~J. Musselman, Complex scheduling of a printing process, Computers and
+  Industrial Engineering 39~(3--4) (2001) 273--291.
+
+\bibitem{Carmo}
+A.~B. do~Carmo, M.~Raeder, T.~Nunes, M.~Kolberg, L.~G. Fernandes, A job profile
+  oriented scheduling architecture for improving the throughput of industrial
+  printing environments, Computers and Industrial Engineering 88 (2015)
+  191--205.
+
+\bibitem{Rice}
+J.~A. Rice, Mathematical Statistics and Data Analysis, 3rd Edition, Duxbury
+  Advanced, 2006.
+
+\bibitem{Durrett}
+R.~Durrett, Probability: theory and examples, 4th Edition, Cambridge University
+  Press, 2004.
+
+\end{thebibliography}
