@@ -1,0 +1,112 @@
+\documentclass[10pt]{amsart}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{epstopdf}
+\usepackage{color}
+\usepackage{float}
+\restylefloat{table}
+\usepackage{tikz}
+\usetikzlibrary{arrows}
+\usetikzlibrary{matrix}
+\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
+
+\setlength{\parskip}{2mm}
+
+\newtheorem{thm}{Theorem}[section]
+\newtheorem{lem}[thm]{Lemma}
+\newtheorem{prop}[thm]{Proposition}
+\newtheorem{defn}[thm]{Definition}
+\newtheorem{cor}[thm]{Corollary}
+\newtheorem{conjecture}[thm]{Conjecture}
+\newtheorem{exam}[thm]{Example}
+\newtheorem{remark}[thm]{Remark}
+
+
+\newcommand{\FN}{\mathbb{N}}
+\newcommand{\FZ}{\mathbb{Z}}  % Integer ring Z
+\newcommand{\FC}{\mathbb{C}}  % Complex field
+\newcommand{\FR}{\mathbb{R}}  % Real field
+\newcommand{\FQ}{\mathbb{Q}}  % Rational field
+
+\newcommand{\z}{\zeta}
+\newcommand{\fa}{\mathfrak{a}}
+\newcommand{\fb}{\mathfrak{b}}
+\newcommand{\fc}{\mathfrak{c}}
+\newcommand{\fm}{\mathfrak{m}}
+\newcommand{\fo}{\mathfrak{o}}
+\newcommand{\fp}{\mathfrak{p}}
+\newcommand{\fq}{\mathfrak{q}}
+
+\newcommand{\h}{\mathcal{H}}
+\newcommand{\F}{\mathbb{F}}
+\newcommand{\cc}{\mathcal{C}}
+\newcommand{\R}{\mathcal{R}}
+\renewcommand{\O}{\mathcal{O}}
+
+\newcommand{\C}{\mathbf{C}}
+\newcommand{\s}{\mathbf{s}}
+\newcommand{\mm}{\mathrm{m}}
+\newcommand{\bx}{\mathbf{x}}
+\newcommand{\bu}{\mathbf{u}}
+\newcommand{\bc}{\mathbf{c}}
+\newcommand{\bv}{\mathbf{v}}
+\newcommand{\lc}{\Big{(}}
+\newcommand{\rc}{\Big{)}}
+\newcommand{\Tr}{\textnormal{Tr}}
+\newcommand{\Gal}{\textnormal{Gal}}
+
+
+\usepackage{kotex}
+\begin{document}
+\title[Response Report]
+{Response Report}
+\maketitle
+\centerline{\bf "Development of an Algorithm Improving Label Arrangements in Offset Printing"}
+\centerline{\bf by GEUN SOO JANG, TAEHYEONG KIM, HYUN-MIN KIM, KI MAN KONG,}
+\centerline{\bf  JEONG RYE PARK,JONG-HYEON SEO,SANG-HYUP SEO, AND SHIN WON YOON}
+
+\
+
+We thank referees for their careful review and helpful comments, which improved clarity of our paper.
+
+\
+
+\begin{enumerate}
+
+\item We fixed some small typos.\\
+
+\item Page 5, after FIGURE 3.1:\\
+Add more detailed description of Figure 3.1\\
+
+\item Page 5, after "We set the result as {\it Part\underline{ }list}."\\
+For example, let $k=6$ and $num=3$, then $\text{\it Part\underline{ }list}={Part}(6, 3) = \{ [4,1,1],[3,2,1],[2,2,2] \}$.
+$N$ is a printing number that expressed in (3.1).\\
+
+\item Page 5, above Example 4.1 : \\
+In this section, we assume that $k$ is equal to $4$\\
+$\Longrightarrow$\\
+For the next two examples, we assume that $k$ is equal to $4$\\
+
+\item page 5, In Example 4.1 : \\
+$I=\{A,B,C\}$,  $\pi = \{\{A,B\}, \{C\}\}$, $P_{1} = \{A,B\}, P_{2} = \{C\}$\\
+$\Longrightarrow$\\
+$I=\{1,2,3\}$,  $\pi = \{\{1,2\}, \{3\}\}$, $P_{1} = \{1,2\}, P_{2} = \{3\}$\\
+
+\item fixed FIGURE 4.1 and FIGURE 4.2 \\
+
+
+\item page 6, In Example 4.2 : \\
+$I=\{A,B\}$,  $\pi = \{\{A,B\}\}$ \\
+$\Longrightarrow$\\
+$I=\{1,2\}$,  $\pi = \{\{1,2\}\}$ \\
+
+\item fixed FIGURE 4.3 and FIGURE 4.4 \\
+
+\item page 6, after FIGURE 4.4 :\\
+Add the real problem and Example 4.3\\
+
+\end{enumerate}
+
+
+\end{document} 
