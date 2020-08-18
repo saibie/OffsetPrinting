@@ -183,7 +183,7 @@ Let us examine the other case.
 \begin{equation}
 \textrm{[A, A, A, A]} \times 1 + \textrm{[B, B, B, B]} \times 3 - \textrm{[A]} \times 1 - \textrm{[B]} \times 3
 \end{equation}
-$\textrm{[A, B, B, B]} \times 3$ also seems to be 'Better' because there is no loss. Under the following conditions, $\textrm{[A, B, B, B]} \times 3$ is the ‘Best’ method.
+$\textrm{[A, B, B, B]} \times 3$ also seems to be `Better' because there is no loss. Under the following conditions, $\textrm{[A, B, B, B]} \times 3$ is the ‘Best’ method.
 \begin{enumerate}[(1)]
 	\item Minimize the number of list.
 	\item Minimize the loss of lists.
@@ -334,9 +334,9 @@ As a result of this process, $A_{P,i}$ whose loss does not exceed the threshold 
 This example was described to help the understanding of the problem. For the next two examples, we assume that $k$ is equal to 4.
 
 \begin{example}
-	Assume that $I=\{1,2,3\}$, and the order-quantity vector ${\bf b}=(50,30,20)$.
+	Assume that $I=\{1,2,3\}$, and ${\bf b}=(50,30,20)$.
 	
-	We consider $\pi = \{\{1,2\}, \{3\}\}$ is a partition for the order-quantity vector ${\bf b}$. 
+	We consider $\pi = \{\{1,2\}, \{3\}\}$ is a partition for ${\bf b}$. 
 	Without loss of generality, assume that $P_{1} = \{1,2\}, P_{2} = \{3\}$. Since $k = 4$, the matrix $A$ can be found as follows.
 	
 	\begin{equation}
@@ -377,9 +377,9 @@ This example was described to help the understanding of the problem. For the nex
 \end{example}
 
 \begin{example}
-	Assume that $I=\{1,2\}$, and the order-quantity vector ${\bf b}=(50,20)$.
+	Assume that $I=\{1,2\}$, and ${\bf b}=(50,20)$.
 	
-	We consider $\pi = \{\{1,2\}\}$ is a partition for the quantity vector ${\bf b}$. Since $k = 4$, 
+	We consider $\pi = \{\{1,2\}\}$ is a partition for ${\bf b}$. Since $k = 4$, 
 	the matrix $A = (\begin{array}{cc}2 & 2\end{array})$, and the printing number (\ref{eq:NumPlate}) is 
 	\begin{equation}
 	\left\lceil \max\left\{ \left. \frac{b_{i}}{A_{P,i}} \right| i \in P \right\} \right\rceil = \left\lceil \max \left\{ \frac{50}{2}, \frac{20}{2} \right\} \right\rceil = 25.
