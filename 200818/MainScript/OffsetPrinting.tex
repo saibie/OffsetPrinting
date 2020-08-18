@@ -225,13 +225,13 @@ Section 2 of this paper will describe the process of label printing using offset
 \section{Offset label printing process}\label{sec:Offset}
 
 \subsection{Label printing process}\label{subsec:LabelPrinting}
-Prior to describing the label printing process, we define the following terms first.
+Before discussing the process of label printing, we define the following terms.
 \begin{enumerate}[*]
 	\item {\bf Plate} : A printing plate for the offset printing (see Figure \ref{fig:PlateLabel})
 	\item {\bf Loss} : The number of labels printed in excess of the order-quantity
 \end{enumerate}
 
-The offset label printing process is as follows. At first, we receive orders from customers. The order includes many types of labels and order-quantities by type (see Figure \ref{fig:Order_Sorting}). Thereafter, offset printing plates are made. Many types of labels are placed on each plate so that many labels are printed at one printing. After the plates are made, we produce more labels than order-quantities using each plate. Then, the sheets are cut to the sizes of labels. As the final process, the labels are collected by type.
+The offset label printing process is as follows. At first, we receive orders from customers. The order includes many types of labels and order-quantities by type (see Figure \ref{fig:Order_Sorting}). Thereafter, offset printing plates are made. Many types of labels are placed on each plate so that many labels are printed at one printing. After the plates are made, we produce more labels than order-quantities using each plate. Then, the sheets are cut into the label size. As the final process, the labels are collected by type.
 
 \begin{wrapfigure}{r}{4cm}
 	\includegraphics[width=4cm]{PlateLabel.pdf}
@@ -243,7 +243,7 @@ The offset label printing process is as follows. At first, we receive orders fro
 The constraint conditions and major points that will be considered in this paper for cost saving are as follows. First, one type of label should be placed on only one plate. This is to prevent different types of labels from being mixed when collected by type after the printed sheets are cut. Meanwhile, the total number of labels placed on each plate is also constant because the sizes of individual plates are constant and the sizes of labels in one order are also constant. In addition, the number of plates should be minimized as little as possible because plates are made using molds and the costs are high. Finally, the Loss should be minimized because overprinted labels cannot be used and should be entirely discarded.
 
 \subsection{Sorting reports output program}\label{subsec:SortProgram}
-Plate fabrication and the use of printing paper incur costs. To reduce the costs, order details are inputted to output appropriate methods to place labels on the plate as sorting reports. The plate makers produce plates according to the instructions in the sorting reports (see Figure \ref{fig:Order_Sorting}).
+The production of plates and the use of printing paper incur costs. To reduce the costs, order details are inputted to output appropriate methods to place labels on the plate as sorting reports. The plate makers produce plates according to the instructions in the sorting reports (see Figure \ref{fig:Order_Sorting}).
 
 Since the existing sorting report output method was not suitable for small quantity batch production systems, the algorithm should be improved. Therefore, this study was conducted to develop new algorithms suitable for small quantity batch production systems too.
 
@@ -367,7 +367,7 @@ This example was described to help the understanding of the problem. For the nex
 	\left\lceil \max\left\{ \left. \frac{b_{i}}{A_{P,i}} \right| i \in P \right\} \right\rceil = \left\lceil \max \left\{ \frac{50}{2}, \frac{30}{1}, \frac{20}{1} \right\} \right\rceil = 30.
 	\end{equation}
 	In addition, it can be easily seen that the total number of Loss $E_{A,{\bf b}}$ is 20 (see Figure \ref{fig:ex12}).
-	The array shown in Figure \ref{fig:ex12} is a more efficient because its Loss is the same but its number of plates is smaller.
+	The array shown in Figure \ref{fig:ex12} is more efficient since its Loss is the same but its number of plates is smaller.
 	\begin{figure}[h!]
 		\centering
 		\includegraphics[width=4cm]{ex12.pdf}
@@ -558,7 +558,7 @@ The total Loss $E_{A,b}$ is $251$. So, total cost is $\alpha|\pi|+\beta E_{A,b}=
 
 Each sorting report includes the number of losses corresponding to one plate. 
 Using this, the total cost can be calculated by replacing each plate with loss. 
-We used 82 sorting report samples. The algorithm can be improved for every sample data.
+We used 82 sorting report samples.
 The total cost was reduced by from minimum -6.85\%(sample no. 15) to maximum 27.5\%(sample no. 74) (see Figure \ref{fig:Comparing}).
 
 \begin{figure}[h!]

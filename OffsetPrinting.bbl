@@ -1,0 +1,45 @@
+\begin{thebibliography}{1}
+
+\bibitem{Brualdi2004}
+R.~A. Brualdi.
+\newblock {\em Introductory Combinatorics}.
+\newblock Pearson Prentice Hall, 2004.
+
+\bibitem{AlChan}
+Albert~W. Chan and P.~W.~Udo Graefe.
+\newblock An interactive sequencing aid for printing presses.
+\newblock {\em Computers and Industrial Engineering}, 3(4):321--325, 1979.
+
+\bibitem{Carmo}
+Andriele~Busatto do~Carmo, Mateus Raeder, Thiago Nunes, Mariana Kolberg, and
+  Luiz~Gustavo Fernandes.
+\newblock A job profile oriented scheduling architecture for improving the
+  throughput of industrial printing environments.
+\newblock {\em Computers and Industrial Engineering}, 88:191--205, 2015.
+
+\bibitem{Durrett}
+Richard Durrett.
+\newblock {\em Probability: theory and examples}.
+\newblock Cambridge University Press, 4 edition, 2004.
+
+\bibitem{OffsetPrint}
+{Encyclop{\ae}dia Britannica, inc.}
+\newblock ``offset printing'', June 2016.
+\newblock https://www.britannica.com/ technology/offset-printing.
+
+\bibitem{Kipphan2001}
+H.~Kipphan.
+\newblock {\em Handbook of Print Media: Technologies and Production Methods}.
+\newblock Springer, 2001.
+
+\bibitem{Muscle}
+K.~J. Musselman.
+\newblock Complex scheduling of a printing process.
+\newblock {\em Computers and Industrial Engineering}, 39(3--4):273--291, 2001.
+
+\bibitem{Rice}
+John~A. Rice.
+\newblock {\em Mathematical Statistics and Data Analysis}.
+\newblock Duxbury Advanced, 3rd edition, 2006.
+
+\end{thebibliography}

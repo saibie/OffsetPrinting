@@ -1,0 +1,121 @@
+\documentclass[10pt]{amsart}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{epstopdf}
+\usepackage{color}
+\usepackage{float}
+\restylefloat{table}
+\usepackage{tikz}
+\usetikzlibrary{arrows}
+\usetikzlibrary{matrix}
+\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
+
+\setlength{\parskip}{2mm}
+
+\newtheorem{thm}{Theorem}[section]
+\newtheorem{lem}[thm]{Lemma}
+\newtheorem{prop}[thm]{Proposition}
+\newtheorem{defn}[thm]{Definition}
+\newtheorem{cor}[thm]{Corollary}
+\newtheorem{conjecture}[thm]{Conjecture}
+\newtheorem{exam}[thm]{Example}
+\newtheorem{remark}[thm]{Remark}
+
+
+\newcommand{\FN}{\mathbb{N}}
+\newcommand{\FZ}{\mathbb{Z}}  % Integer ring Z
+\newcommand{\FC}{\mathbb{C}}  % Complex field
+\newcommand{\FR}{\mathbb{R}}  % Real field
+\newcommand{\FQ}{\mathbb{Q}}  % Rational field
+
+\newcommand{\z}{\zeta}
+\newcommand{\fa}{\mathfrak{a}}
+\newcommand{\fb}{\mathfrak{b}}
+\newcommand{\fc}{\mathfrak{c}}
+\newcommand{\fm}{\mathfrak{m}}
+\newcommand{\fo}{\mathfrak{o}}
+\newcommand{\fp}{\mathfrak{p}}
+\newcommand{\fq}{\mathfrak{q}}
+
+\newcommand{\h}{\mathcal{H}}
+\newcommand{\F}{\mathbb{F}}
+\newcommand{\cc}{\mathcal{C}}
+\newcommand{\R}{\mathcal{R}}
+\renewcommand{\O}{\mathcal{O}}
+
+\newcommand{\C}{\mathbf{C}}
+\newcommand{\s}{\mathbf{s}}
+\newcommand{\mm}{\mathrm{m}}
+\newcommand{\bx}{\mathbf{x}}
+\newcommand{\bu}{\mathbf{u}}
+\newcommand{\bc}{\mathbf{c}}
+\newcommand{\bv}{\mathbf{v}}
+\newcommand{\lc}{\Big{(}}
+\newcommand{\rc}{\Big{)}}
+\newcommand{\Tr}{\textnormal{Tr}}
+\newcommand{\Gal}{\textnormal{Gal}}
+
+
+\usepackage{kotex}
+\begin{document}
+\title[Response Report]
+{Response Report}
+\maketitle
+\centerline{\bf ``Development of an Algorithm Improving Label Arrangements in Offset Printing''}
+\centerline{\bf by GEUN SOO JANG, TAEHYEONG KIM, HYUN-MIN KIM, KI MAN KONG,}
+\centerline{\bf  JEONG RYE PARK,JONG-HYEON SEO,SANG-HYUP SEO, AND SHIN WON YOON}
+
+\
+
+We thank referees for their careful review and helpful comments, which improved clarity of our paper.
+\vspace{.5cm}
+\begin{center}
+	{\Large\bf Major Revision}
+\end{center}
+\begin{enumerate}
+
+\item {\bf Suggestion for Abstract} - ``The advantage of this method is that there is only change the arrangement of the pieces on the plates.''
+$~\longrightarrow~$ ``The advantage of this method is that it focuses on changing the arrangment of pieces on one plate at a time.'' :\\
+~\\
+We almost revised as the referee's suggestion but, in this paper, we do not talk about changing the arrangement of pieces on {\bf one plate at a time}.
+So, we revised the sentence to ``The advantage of this method is that it focuses on changing the arrangement of the pieces on the plates.''\\
+
+\item {\bf The spelling of the Figure 2.1} : \\
+~\\
+We revised it.\\
+
+\item {\bf ``The algorithm can be improved for every sample data'' in Section 5} : \\
+~\\
+We deleted it as referee's suggestion.\\
+
+\item {\bf Line 2 below (4.4)} : \\
+~\\
+Revision : ``The array shown in Figure 4.2. is a more efficient because...'' $~\longrightarrow~$ ``The array shown in Figure 4.2. is more efficient since...''
+
+\end{enumerate}
+\newpage
+\vspace{.5cm}
+\begin{center}
+	{\Large\bf Minor Revision}
+\end{center}
+\begin{enumerate}
+
+\item {\bf Line 1 of Subsection 2.1} :\\
+~\\
+``Prior to describing the label printing process,''\\$~\longrightarrow~$``Before discussing the process of label printing,''\\
+
+\item {\bf Line 2 of Subsection 2.1} :\\
+~\\
+``terms first.''$~\longrightarrow~$``terms.''\\
+
+\item {\bf Line 2 above Subsection 2.2} :\\
+~\\
+``The sheets are then cut to the sizes of labels.''$~\longrightarrow~$``Then, the sheets are cut into the label size.''\\
+
+\item {\bf Line 1 of Subsection 2.3} :\\
+~\\
+``Plate fabrication''$~\longrightarrow~$``The production of plates''\\
+
+\end{enumerate}
+\end{document} 
