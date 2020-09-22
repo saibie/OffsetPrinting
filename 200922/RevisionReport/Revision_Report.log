@@ -1,0 +1,900 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.6.9)  22 SEP 2020 14:04
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**Revision_Report.tex
+(./Revision_Report.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-03-06>
+(c:/usr/texlive/2020/texmf-dist/tex/latex/amscls/amsart.cls
+Document Class: amsart 2017/10/31 v2.20.4
+\linespacing=\dimen134
+\normalparindent=\dimen135
+\normaltopskip=\skip47
+(c:/usr/texlive/2020/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip48
+
+For additional information on amsmath, use the `?' option.
+(c:/usr/texlive/2020/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(c:/usr/texlive/2020/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks15
+\ex@=\dimen136
+))
+(c:/usr/texlive/2020/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen137
+)
+(c:/usr/texlive/2020/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count167
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count168
+\leftroot@=\count169
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count170
+\DOTSCASE@=\count171
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box45
+\strutbox@=\box46
+\big@size=\dimen138
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count172
+\c@MaxMatrixCols=\count173
+\dotsspace@=\muskip16
+\c@parentequation=\count174
+\dspbrk@lvl=\count175
+\tag@help=\toks16
+\row@=\count176
+\column@=\count177
+\maxfields@=\count178
+\andhelp@=\toks17
+\eqnshift@=\dimen139
+\alignsep@=\dimen140
+\tagshift@=\dimen141
+\tagwidth@=\dimen142
+\totwidth@=\dimen143
+\lineht@=\dimen144
+\@envbody=\toks18
+\multlinegap=\skip49
+\multlinetaggap=\skip50
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 398
+.
+
+(c:/usr/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+(c:/usr/texlive/2020/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+\copyins=\insert199
+\abstractbox=\box47
+\listisep=\skip51
+\c@part=\count179
+\c@section=\count180
+\c@subsection=\count181
+\c@subsubsection=\count182
+\c@paragraph=\count183
+\c@subparagraph=\count184
+\c@figure=\count185
+\c@table=\count186
+\abovecaptionskip=\skip52
+\belowcaptionskip=\skip53
+\captionindent=\dimen145
+\thm@style=\toks20
+\thm@bodyfont=\toks21
+\thm@headfont=\toks22
+\thm@notefont=\toks23
+\thm@headpunct=\toks24
+\thm@preskip=\skip54
+\thm@postskip=\skip55
+\thm@headsep=\skip56
+\dth@everypar=\toks25
+)
+(c:/usr/texlive/2020/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+)
+(c:/usr/texlive/2020/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks26
+\inpenc@posthook=\toks27
+)
+(c:/usr/texlive/2020/texmf-dist/tex/latex/units/units.sty
+Package: units 1998/08/04 v0.9b Typesetting units
+
+(c:/usr/texlive/2020/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(c:/usr/texlive/2020/texmf-dist/tex/latex/units/nicefrac.sty
+Package: nicefrac 1998/08/04 v0.9b Nice fractions
+\L@UnitsRaiseDisplaystyle=\skip57
+\L@UnitsRaiseTextstyle=\skip58
+\L@UnitsRaiseScriptstyle=\skip59
+))
+(c:/usr/texlive/2020/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+(c:/usr/texlive/2020/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks28
+)
+(c:/usr/texlive/2020/texmf-dist/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+)
+(c:/usr/texlive/2020/texmf-dist/tex/latex/tools/array.sty
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen146
+\ar@mcellbox=\box48
+\extrarowheight=\dimen147
+\NC@list=\toks29
+\extratabsurround=\skip60
+\backup@length=\skip61
+\ar@cellbox=\box49
+)
+(c:/usr/texlive/2020/texmf-dist/tex/latex/arydshln/arydshln.sty
+Package: arydshln 2019/02/21 v1.76 
+\dashlinedash=\dimen148
+\dashlinegap=\dimen149
+\adl@box=\box50
+\adl@height=\dimen150
+\adl@heightsave=\dimen151
+\adl@depth=\dimen152
+\adl@depthsave=\dimen153
+\adl@finaldepth=\dimen154
+\adl@columns=\count187
+\adl@ncol=\count188
+\adl@currentcolumn=\count189
+\adl@currentcolumnsave=\count190
+\adl@totalheight=\count191
+\adl@totalheightsave=\count192
+\adl@dash=\count193
+\adl@gap=\count194
+\adl@cla=\count195
+\adl@clb=\count196
+\adl@everyvbox=\toks30
+\adl@LTpagetotal=\dimen155
+)
+(c:/usr/texlive/2020/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(c:/usr/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks31
+)
+(c:/usr/texlive/2020/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+(c:/usr/texlive/2020/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(c:/usr/texlive/2020/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(c:/usr/texlive/2020/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen156
+\Gin@req@width=\dimen157
+)
+(c:/usr/texlive/2020/texmf-dist/tex/latex/graphics/rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+\c@r@tfl@t=\count197
+\rotFPtop=\skip62
+\rotFPbot=\skip63
+\rot@float@box=\box51
+\rot@mess@toks=\toks32
+)
+(c:/usr/texlive/2020/texmf-dist/tex/generic/iftex/ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+
+(c:/usr/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+(c:/usr/texlive/2020/texmf-dist/tex/generic/xypic/xy.sty
+(c:/usr/texlive/2020/texmf-dist/tex/generic/xypic/xy.tex Bootstrap'ing:
+catcodes, docmode,
+(c:/usr/texlive/2020/texmf-dist/tex/generic/xypic/xyrecat.tex)
+(c:/usr/texlive/2020/texmf-dist/tex/generic/xypic/xyidioms.tex)
+
+ Xy-pic version 3.8.9 <2013/10/06>
+ Copyright (c) 1991-2013 by Kristoffer H. Rose <krisrose@tug.org> and others
+ Xy-pic is free software: see the User's Guide for details.
+
+Loading kernel: messages; fonts; allocations: state,
+\X@c=\dimen158
+\Y@c=\dimen159
+\U@c=\dimen160
+\D@c=\dimen161
+\L@c=\dimen162
+\R@c=\dimen163
+\Edge@c=\toks33
+\X@p=\dimen164
+\Y@p=\dimen165
+\U@p=\dimen166
+\D@p=\dimen167
+\L@p=\dimen168
+\R@p=\dimen169
+\Edge@p=\toks34
+\X@origin=\dimen170
+\Y@origin=\dimen171
+\X@xbase=\dimen172
+\Y@xbase=\dimen173
+\X@ybase=\dimen174
+\Y@ybase=\dimen175
+\X@min=\dimen176
+\Y@min=\dimen177
+\X@max=\dimen178
+\Y@max=\dimen179
+\lastobjectbox@=\box52
+\zerodotbox@=\box53
+\almostz@=\dimen180
+ direction,
+\d@X=\dimen181
+\d@Y=\dimen182
+\K@=\count198
+\KK@=\count266
+\Direction=\count267
+\K@dXdY=\dimen183
+\K@dYdX=\dimen184
+\xyread@=\read2
+\xywrite@=\write3
+\csp@=\count268
+\quotPTK@=\dimen185
+
+utility macros; pictures: \xy, positions,
+\swaptoks@@=\toks35
+\connectobjectbox@@=\box54
+ objects,
+\styletoks@=\toks36
+ decorations;
+kernel objects: directionals, circles, text; options; algorithms: directions,
+edges, connections;  Xy-pic loaded)
+Package: xy 2013/10/06 Xy-pic version 3.8.9
+
+(c:/usr/texlive/2020/texmf-dist/tex/generic/xypic/xyall.tex
+ Xy-pic option: All features v.3.8
+(c:/usr/texlive/2020/texmf-dist/tex/generic/xypic/xycurve.tex
+ Xy-pic option: Curve and Spline extension v.3.12 curve,
+\crv@cnt@=\count269
+\crvpts@=\toks37
+\splinebox@=\box55
+\splineval@=\dimen186
+\splinedepth@=\dimen187
+\splinetol@=\dimen188
+\splinelength@=\dimen189
+ circles,
+\L@=\dimen190
+ loaded)
+(c:/usr/texlive/2020/texmf-dist/tex/generic/xypic/xyframe.tex
+ Xy-pic option: Frame and Bracket extension v.3.14 loaded)
+(c:/usr/texlive/2020/texmf-dist/tex/generic/xypic/xycmtip.tex
+ Xy-pic option: Computer Modern tip extension v.3.7
+(c:/usr/texlive/2020/texmf-dist/tex/generic/xypic/xytips.tex
+ Xy-pic option: More Tips extension v.3.11 loaded) loaded)
+(c:/usr/texlive/2020/texmf-dist/tex/generic/xypic/xyline.tex
+ Xy-pic option: Line styles extension v.3.10
+\xylinethick@=\dimen191
+ loaded)
+(c:/usr/texlive/2020/texmf-dist/tex/generic/xypic/xyrotate.tex
+ Xy-pic option: Rotate and Scale extension v.3.8 loaded)
+(c:/usr/texlive/2020/texmf-dist/tex/generic/xypic/xycolor.tex
+ Xy-pic option: Colour extension v.3.11 loaded)
+(c:/usr/texlive/2020/texmf-dist/tex/generic/xypic/xymatrix.tex
+ Xy-pic option: Matrix feature v.3.14
+\Row=\count270
+\Col=\count271
+\queue@=\toks38
+\queue@@=\toks39
+\qcount@=\count272
+\qcount@@=\count273
+\matrixsize@=\count274
+ loaded)
+(c:/usr/texlive/2020/texmf-dist/tex/generic/xypic/xyarrow.tex
+ Xy-pic option: Arrow and Path feature v.3.9 path, \ar, loaded)
+(c:/usr/texlive/2020/texmf-dist/tex/generic/xypic/xygraph.tex
+ Xy-pic option: Graph feature v.3.11 loaded) loaded)
+(c:/usr/texlive/2020/texmf-dist/tex/generic/xypic/xypdf.tex
+ Xy-pic option: PDF driver v.1.7 Xy-pic pdf driver: `color' extension support
+(c:/usr/texlive/2020/texmf-dist/tex/generic/xypic/xypdf-co.tex loaded)
+Xy-pic pdf driver: `curve' extension support
+(c:/usr/texlive/2020/texmf-dist/tex/generic/xypic/xypdf-cu.tex loaded)
+Xy-pic pdf driver: `frame' extension support
+(c:/usr/texlive/2020/texmf-dist/tex/generic/xypic/xypdf-fr.tex loaded)
+Xy-pic pdf driver: `line' extension support
+(c:/usr/texlive/2020/texmf-dist/tex/generic/xypic/xypdf-li.tex loaded)
+Xy-pic pdf driver: `rotate' extension support
+(c:/usr/texlive/2020/texmf-dist/tex/generic/xypic/xypdf-ro.tex loaded) loaded))
+(c:/usr/texlive/2020/texmf-dist/tex/latex/base/latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
+)
+(c:/usr/texlive/2020/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
+
+(c:/usr/texlive/2020/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+)
+(c:/usr/texlive/2020/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(c:/usr/texlive/2020/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(c:/usr/texlive/2020/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(c:/usr/texlive/2020/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(c:/usr/texlive/2020/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(c:/usr/texlive/2020/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(c:/usr/texlive/2020/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(c:/usr/texlive/2020/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(c:/usr/texlive/2020/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+)
+\@linkdim=\dimen192
+\Hy@linkcounter=\count275
+\Hy@pagecounter=\count276
+
+(c:/usr/texlive/2020/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(c:/usr/texlive/2020/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(c:/usr/texlive/2020/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count277
+Package hyperref Info: Hyper figures OFF on input line 4547.
+Package hyperref Info: Link nesting OFF on input line 4552.
+Package hyperref Info: Hyper index ON on input line 4555.
+Package hyperref Info: Plain pages OFF on input line 4562.
+Package hyperref Info: Backreferencing OFF on input line 4567.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4800.
+\c@Hy@tempcnt=\count278
+
+(c:/usr/texlive/2020/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5159.
+\XeTeXLinkMargin=\dimen193
+
+(c:/usr/texlive/2020/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(c:/usr/texlive/2020/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count279
+\Field@Width=\dimen194
+\Fld@charsize=\dimen195
+Package hyperref Info: Hyper figures OFF on input line 6430.
+Package hyperref Info: Link nesting OFF on input line 6435.
+Package hyperref Info: Hyper index ON on input line 6438.
+Package hyperref Info: backreferencing OFF on input line 6445.
+Package hyperref Info: Link coloring OFF on input line 6450.
+Package hyperref Info: Link coloring with OCG OFF on input line 6455.
+Package hyperref Info: PDF/A mode OFF on input line 6460.
+LaTeX Info: Redefining \ref on input line 6500.
+LaTeX Info: Redefining \pageref on input line 6504.
+
+(c:/usr/texlive/2020/texmf-dist/tex/generic/atbegshi/atbegshi.sty
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+)
+\Hy@abspage=\count280
+\c@Item=\count281
+\c@Hfootnote=\count282
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(c:/usr/texlive/2020/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2020/01/14 v7.00d Hyperref driver for pdfTeX
+
+(c:/usr/texlive/2020/texmf-dist/tex/latex/atveryend/atveryend.sty
+Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+)
+\Fld@listcount=\count283
+\c@bookmark@seq@number=\count284
+
+(c:/usr/texlive/2020/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(c:/usr/texlive/2020/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip64
+)
+(c:/usr/texlive/2020/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
+
+(c:/usr/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+)
+(c:/usr/texlive/2020/texmf-dist/tex/latex/framed/framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip65
+\fb@frw=\dimen196
+\fb@frh=\dimen197
+\FrameRule=\dimen198
+\FrameSep=\dimen256
+)
+(c:/usr/texlive/2020/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box56
+\UL@hyphenbox=\box57
+\UL@skip=\skip66
+\UL@hook=\toks40
+\UL@height=\dimen257
+\UL@pe=\count285
+\UL@pixel=\dimen258
+\ULC@box=\box58
+Package: ulem 2019/11/18
+\ULdepth=\dimen259
+)
+(c:/usr/texlive/2020/texmf-dist/tex/latex/cancel/cancel.sty
+Package: cancel 2013/04/12 v2.2 Cancel math terms
+)
+(c:/usr/texlive/2020/texmf-dist/tex/latex/cjk-ko/kotex.sty
+Package: kotex 2015/04/19 v1.6 Korean TeX (ko.TeX)
+
+(c:/usr/texlive/2020/texmf-dist/tex/latex/kotex-utf/kotex.cfg)
+(c:/usr/texlive/2020/texmf-dist/tex/latex/kotex-utf/kotexutf.sty
+Package: kotexutf 2015/07/18 v2.1.1 typesetting UTF-8 Korean documents
+
+(c:/usr/texlive/2020/texmf-dist/tex/plain/kotex-plain/kotexutf-core.tex
+\unih@ngulpoint=\count286
+\dhucs@emph@raise=\dimen260
+)
+Now handling font encoding LUC ...
+... processing UTF-8 mapping file for font encoding LUC
+
+(c:/usr/texlive/2020/texmf-dist/tex/latex/kotex-utf/lucenc.dfu
+File: lucenc.dfu 2007/09/05 UTF-8 support for dhucs
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+3001 (decimal 12289)
+   defining Unicode char U+3002 (decimal 12290)
+   defining Unicode char U+3008 (decimal 12296)
+   defining Unicode char U+3009 (decimal 12297)
+   defining Unicode char U+300A (decimal 12298)
+   defining Unicode char U+300B (decimal 12299)
+   defining Unicode char U+300C (decimal 12300)
+   defining Unicode char U+300D (decimal 12301)
+   defining Unicode char U+300E (decimal 12302)
+   defining Unicode char U+300F (decimal 12303)
+   defining Unicode char U+3010 (decimal 12304)
+   defining Unicode char U+3011 (decimal 12305)
+   defining Unicode char U+3014 (decimal 12308)
+   defining Unicode char U+3015 (decimal 12309)
+   defining Unicode char U+3016 (decimal 12310)
+   defining Unicode char U+3017 (decimal 12311)
+   defining Unicode char U+3018 (decimal 12312)
+   defining Unicode char U+3019 (decimal 12313)
+   defining Unicode char U+301A (decimal 12314)
+   defining Unicode char U+301B (decimal 12315)
+   defining Unicode char U+FF01 (decimal 65281)
+   defining Unicode char U+FF08 (decimal 65288)
+   defining Unicode char U+FF09 (decimal 65289)
+   defining Unicode char U+FF0C (decimal 65292)
+   defining Unicode char U+FF0E (decimal 65294)
+   defining Unicode char U+FF1A (decimal 65306)
+   defining Unicode char U+FF1B (decimal 65307)
+   defining Unicode char U+FF1C (decimal 65308)
+   defining Unicode char U+FF1D (decimal 65309)
+   defining Unicode char U+FF1E (decimal 65310)
+   defining Unicode char U+FF1F (decimal 65311)
+   defining Unicode char U+FF3B (decimal 65339)
+   defining Unicode char U+FF3D (decimal 65341)
+   defining Unicode char U+FF5B (decimal 65371)
+   defining Unicode char U+FF5D (decimal 65373)
+   defining Unicode char U+FF61 (decimal 65377)
+   defining Unicode char U+FF62 (decimal 65378)
+   defining Unicode char U+FF63 (decimal 65379)
+   defining Unicode char U+FF64 (decimal 65380)
+   defining Unicode char U+FF65 (decimal 65381)
+)
+\@josa=\count287
+\josatoks=\toks41
+
+(c:/usr/texlive/2020/texmf-dist/tex/latex/cjk-ko/kolabels-utf.sty
+Package: kolabels-utf 2015/03/20 v1.5 UTF-8 Hangul item labels
+)))
+\c@thm=\count288
+
+(c:/usr/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count289
+\l__pdf_internal_box=\box59
+)
+(./Revision_Report.aux)
+\openout1 = `Revision_Report.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for LUC/nanummj/m/n on input line 115.
+LaTeX Font Info:    Trying to load font information for LUC+nanummj on input li
+ne 115.
+
+(c:/usr/texlive/2020/texmf-dist/tex/latex/nanumtype1/lucnanummj.fd
+File: lucnanummj.fd 2013/02/12 v0.1 Nanum Myeongjo font definitions
+)
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 115
+.
+
+(c:/usr/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 115
+.
+
+(c:/usr/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 11
+5.
+
+(c:/usr/texlive/2020/texmf-dist/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+(c:/usr/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count290
+\scratchdimen=\dimen261
+\scratchbox=\box60
+\nofMPsegments=\count291
+\nofMParguments=\count292
+\everyMPshowfont=\toks42
+\MPscratchCnt=\count293
+\MPscratchDim=\dimen262
+\MPnumerator=\count294
+\makeMPintoPDFobject=\count295
+\everyMPtoPDFconversion=\toks43
+) (c:/usr/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(c:/usr/texlive/2020/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package xypdf Info: Line width: 0.39998pt on input line 115.
+\AtBeginShipoutBox=\box61
+Package hyperref Info: Link coloring OFF on input line 115.
+
+(c:/usr/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+
+(c:/usr/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(c:/usr/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count296
+)
+LaTeX Info: Redefining \ref on input line 115.
+LaTeX Info: Redefining \pageref on input line 115.
+LaTeX Info: Redefining \nameref on input line 115.
+(./Revision_Report.out) (./Revision_Report.out)
+\@outlinefile=\write4
+\openout4 = `Revision_Report.out'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--187
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 192--193
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 198--199
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--205
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 210--211
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 216--217
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 222--223
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 228--229
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 234--235
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 240--241
+
+ []
+
+[1{c:/usr/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 246--247
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 252--253
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 258--259
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 262--263
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 268--269
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 272--273
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 278--279
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 284--285
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 288--289
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 292--293
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 296--297
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 300--301
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 306--307
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 312--313
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2]
+Underfull \hbox (badness 10000) in paragraph at lines 318--319
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 324--325
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 330--331
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 336--337
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 342--343
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 348--349
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--355
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 360--361
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 366--367
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 372--373
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 376--377
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 380--381
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3]
+Underfull \hbox (badness 10000) in paragraph at lines 384--385
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 390--391
+
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 395.
+[4]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 395.
+ (./Revision_Report.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 395.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 395.
+Package rerunfilecheck Info: File `Revision_Report.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 395.
+ ) 
+Here is how much of TeX's memory you used:
+ 10763 strings out of 480608
+ 147787 string characters out of 5905573
+ 465371 words of memory out of 5000000
+ 26206 multiletter control sequences out of 15000+600000
+ 550793 words of font info for 86 fonts, out of 8000000 for 9000
+ 1302 hyphenation exceptions out of 8191
+ 38i,9n,33p,3247b,461s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/usr/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}<c:/
+usr/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/usr/t
+exlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/usr/texlive
+/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/usr/texlive/2020/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/usr/texlive/2020/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/usr/texlive/2020/texmf-dist/
+fonts/type1/public/amsfonts/latxfont/line10.pfb><c:/usr/texlive/2020/texmf-dist
+/fonts/type1/public/nanumtype1/nanummjbac.pfb><c:/usr/texlive/2020/texmf-dist/f
+onts/type1/public/nanumtype1/nanummjbad.pfb><c:/usr/texlive/2020/texmf-dist/fon
+ts/type1/public/nanumtype1/nanummjbae.pfb><c:/usr/texlive/2020/texmf-dist/fonts
+/type1/public/nanumtype1/nanummjbb2.pfb><c:/usr/texlive/2020/texmf-dist/fonts/t
+ype1/public/nanumtype1/nanummjbb7.pfb><c:/usr/texlive/2020/texmf-dist/fonts/typ
+e1/public/nanumtype1/nanummjbb8.pfb><c:/usr/texlive/2020/texmf-dist/fonts/type1
+/public/nanumtype1/nanummjbb9.pfb><c:/usr/texlive/2020/texmf-dist/fonts/type1/p
+ublic/nanumtype1/nanummjbba.pfb><c:/usr/texlive/2020/texmf-dist/fonts/type1/pub
+lic/nanumtype1/nanummjbbb.pfb><c:/usr/texlive/2020/texmf-dist/fonts/type1/publi
+c/nanumtype1/nanummjbbc.pfb><c:/usr/texlive/2020/texmf-dist/fonts/type1/public/
+nanumtype1/nanummjbc0.pfb><c:/usr/texlive/2020/texmf-dist/fonts/type1/public/na
+numtype1/nanummjbc1.pfb><c:/usr/texlive/2020/texmf-dist/fonts/type1/public/nanu
+mtype1/nanummjbc2.pfb><c:/usr/texlive/2020/texmf-dist/fonts/type1/public/nanumt
+ype1/nanummjbc5.pfb><c:/usr/texlive/2020/texmf-dist/fonts/type1/public/nanumtyp
+e1/nanummjbc6.pfb><c:/usr/texlive/2020/texmf-dist/fonts/type1/public/nanumtype1
+/nanummjbc7.pfb><c:/usr/texlive/2020/texmf-dist/fonts/type1/public/nanumtype1/n
+anummjbc8.pfb><c:/usr/texlive/2020/texmf-dist/fonts/type1/public/nanumtype1/nan
+ummjbcc.pfb><c:/usr/texlive/2020/texmf-dist/fonts/type1/public/nanumtype1/nanum
+mjbd0.pfb><c:/usr/texlive/2020/texmf-dist/fonts/type1/public/nanumtype1/nanummj
+bd5.pfb><c:/usr/texlive/2020/texmf-dist/fonts/type1/public/nanumtype1/nanummjbd
+6.pfb><c:/usr/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb>
+<c:/usr/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/us
+r/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb><c:/usr/texl
+ive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/usr/texlive/20
+20/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on Revision_Report.pdf (4 pages, 711293 bytes).
+PDF statistics:
+ 155 PDF objects out of 1000 (max. 8388607)
+ 115 compressed objects within 2 object streams
+ 5 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
