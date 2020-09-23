@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.6.9)  22 SEP 2020 14:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.6.9)  23 SEP 2020 18:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -738,7 +738,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 655.
 Here is how much of TeX's memory you used:
  11788 strings out of 480608
  167435 string characters out of 5905573
- 501083 words of memory out of 5000000
+ 500083 words of memory out of 5000000
  27181 multiletter control sequences out of 15000+600000
  542830 words of font info for 70 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
@@ -758,7 +758,7 @@ m/cmsy6.pfb><c:/usr/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
 7.pfb><c:/usr/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
 ><c:/usr/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb><c:/u
 sr/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on OffsetPrinting.pdf (11 pages, 1289163 bytes).
+Output written on OffsetPrinting.pdf (11 pages, 1289150 bytes).
 PDF statistics:
  582 PDF objects out of 1000 (max. 8388607)
  435 compressed objects within 5 object streams
