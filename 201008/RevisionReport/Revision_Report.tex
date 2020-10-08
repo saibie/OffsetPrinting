@@ -1,0 +1,295 @@
+%% LyX 1.6.4 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[10pt,a4paper,english]{amsart}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+%\usepackage{endnotes}
+\usepackage{units}
+%\usepackage{multirow}
+\usepackage{amstext}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{enumerate}
+\usepackage{cite}
+%\usepackage{natbib}
+\usepackage{amsthm}
+\usepackage{array,arydshln}
+\usepackage[pdftex]{graphicx}
+\usepackage{rotating}
+\usepackage{ifpdf}
+%\usepackage{epsfig}
+\usepackage[all]{xy}
+\usepackage{latexsym}
+\usepackage[hidelinks]{hyperref}
+\usepackage{color}
+\usepackage{framed}
+\usepackage{ulem}
+\usepackage{cancel}
+\usepackage{kotex}
+%\usepackage{hfont}
+
+
+\makeatletter
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Textclass specific LaTeX commands.
+\numberwithin{equation}{section} %% Comment out for sequentially-numbered
+\numberwithin{figure}{section} %% Comment out for sequentially-numbered
+\numberwithin{table}{section}
+ \let\footnote=\endnote
+\theoremstyle{plain}
+\newtheorem{thm}{Theorem}[section]
+  \theoremstyle{definition}
+  \newtheorem{defn}[thm]{Definition}
+  \newtheorem{Def}[thm]{Definition}
+  \newtheorem{definition}[thm]{Definition}
+  \newtheorem{exam}[thm]{Example}
+  \newtheorem{algo}[thm]{Algorithm}
+%  \theoremstyle{plain}
+  \newtheorem{assumption}[thm]{Assumption}
+  \theoremstyle{plain}
+  \newtheorem{lem}[thm]{Lemma}
+  \newtheorem{lemma}[thm]{Lemma}
+  \theoremstyle{plain}
+  \newtheorem{cor}[thm]{Corollary}
+  \newtheorem{corollary}[thm]{Corollary}
+  \theoremstyle{plain}
+  \newtheorem{rmk}[thm]{Remark}
+  \newtheorem{rem}[thm]{Remark}
+
+\def\norm#1{\|#1\|}
+
+\newcommand\numberthis{\addtocounter{equation}{1}\tag{\theequation}}
+
+%\newcommand{\norm}[1]{\|#1\|}
+\def\norm#1{\|#1\|}
+\def\normm#1#2{\|#1\|_{#2}}
+\def\normF#1{\|#1\|_{F}}
+\def\Proof{{\bf Proof.\enspace}}
+\def\vec{\mathrm{vec}}
+%\def\unvec{\mathrm{unvec}}
+\def\tr{\mathrm{tr}}
+%\def\tr{\textrm{tr}}
+\def\bmatrix#1{\left[\begin{matrix}#1\end{matrix}\right]}
+\def\pmatrix#1{\left(\begin{matrix}#1\end{matrix}\right)}
+\def\R{\mathbb{R}}
+\def\N{\mathbb{N}}
+\def\C{\mathbb{C}}
+\def\nbyn{n\times n}
+\def\mbyn{m\times n}
+\def\mbym{m\times m}
+\def\pbyq{p\times q}
+\def\nnbynn{n^{2}\times n^{2}}
+\def\mbf#1{\mathbf{#1}}
+\def\mrm#1{\mathrm{#1}}
+\def\bpi{\boldsymbol{\pi}}
+\def\a{\alpha}
+\def\b{\beta}
+\def\d{\delta}
+\def\e{\varepsilon}
+\def\l{\lambda}
+\def\D{\mathcal{D}}
+\def\F{\mathcal{F}}
+\def\G{\mathcal{G}}
+\def\Q{\mathcal{Q}}
+\def\M{\mathcal{M}}
+\def\P{\mathcal{P}}
+\def\X{\mathcal{X}}
+\def\pjn{\mathbf{P}_{\mathcal{N}}}
+\def\pjm{\mathbf{P}_{\mathcal{M}}}
+\def\tXi{\tilde{X}_{i}}
+\def\tXii{\tilde{X}_{i+1}}
+\def\dpm#1{\begin{displaymath}#1\end{displaymath}}
+\def\bdm{\begin{displaymath}}
+\def\edm{\end{displaymath}}
+\def\beq{\begin{equation}}
+\def\eeq{\end{equation}}
+\def\dtyl{\displaystyle}
+\def\ones#1{\mathbf{1}_{#1}}
+%\def\onesn{\mathbf{1}_{n \times n}}
+
+
+\makeatother
+
+
+
+\begin{document}
+
+
+\title{Revision Report}
+
+
+%\begin{abstract}
+%We consider the Newton iteration for a matrix polynomial equation which arises in stochastic problem.
+%In this paper, we show that the elementwise minimal nonnegative solution of the matrix polynomial equation
+%can be obtained using Newton's method if the equation satisfies the sufficient condition, and
+%the convergence rate of the iteration is quadratic if the Fr\'{e}chet derivative at the solution is nonsingular.
+%Moreover, we show that the convergence rate is at least linear if the Fr\'{e}chet derivative is singular,
+%but we can apply a modified Newton method whose iteration number is less than the pure Newton iteration number.
+%Finally, we give a numerical experiment which is related with our issue.
+%\end{abstract}
+%
+%\keywords{matrix polynomial equation, elementwise positive solution, elementwise nonnegative solution, $M$-matrix, Newton's method, convergence rate, acceleration of a method}
+%
+%\subjclass[2010]{65H10}
+
+\author[G. Jang]{Geun Soo Jang}
+%\address{Geun Soo Jang\\
+%	Finance.Fishery.Manufacture Industrial Mathematics Center on Big Data, Pusan National University, Busan, 46241, Republic of Korea}
+%\email{sand621@naver.com}
+\author[T. Kim]{Taehyeong Kim}
+%\address{Taehyeong Kim\\
+%	Finance.Fishery.Manufacture Industrial Mathematics Center on Big Data, Pusan National University, Busan, 46241, Republic of Korea}
+%\email{xogud7936@pusan.ac.kr}
+\author[H. Kim]{Hyun-Min Kim}
+%\address{Hyun-Min Kim\\
+%	Finance.Fishery.Manufacture Industrial Mathematics Center on Big Data, Pusan National University, Busan, 46241, Republic of Korea}
+%\email{hyunmin@pusan.ac.kr}
+\author[K. Kong]{Ki Man Kong}
+%\address{Ki Man Kong\\
+%	World Komax Co., Ltd., 1505, Centum Jungang-Ro 48,Haeundae-Gu, Busan, 48059, Republic of Korea}
+%\email{kennethkong@worldkomax.net}
+\author[J. Park]{Jeong Rye Park}
+%\address{Jeong Rye Park\\
+%	Finance.Fishery.Manufacture Industrial Mathematics Center on Big Data, Pusan National University, Busan, 46241, Republic of Korea}
+%\email{parkjr@pusan.ac.kr}
+\author[J. Seo]{Jong-hyeon Seo}
+%\address{Jong-hyeon Seo\\
+%	Chubu University Academy of Emerging Science, Kasugai, 487-0027, Japan}
+%\email{hyeonni94@gmail.com}
+\author[S. Seo]{Sang-hyup Seo$^{\dagger}$}
+%\address{Sang-hyup Seo\\
+%	Finance.Fishery.Manufacture Industrial Mathematics Center on Big Data, Pusan National University, Busan, 46241, Republic of Korea}
+%\email{saibie1677@gmail.com}
+\author[S. Yoon]{Shin won Yoon}
+%\address{Shin won Yoon\\
+%	Finance.Fishery.Manufacture Industrial Mathematics Center on Big Data, Pusan National University, Busan, 46241, Republic of Korea}
+%\email{ysw0123@pusan.ac.kr}
+
+
+%\thanks{$\dagger$Corresponding Author}
+%
+%\thanks{This research was supported by Basic Science Research Program through
+%		the National Research Foundation of Korea(NRF) funded by the Ministry
+%		of Education, Science and Technology(2017R1A5A1015722, 2017R1D1A3B04033516)}
+
+\maketitle
+
+\begin{center}
+	{\LARGE \bf <Revisions>}
+\end{center}
+
+
+\noindent{\bf L3--4 in Abstract :} 
+
+\noindent It is by setting an acceptable upper limit for each plate, and carrying out
+
+\noindent $\longrightarrow$ It is {\color{red}done} by setting an acceptable upper limit for each plate, and {\color{red}by} carrying out\\
+
+\noindent{\bf L13 in P1:} 
+
+\noindent two \sout{each of} A's and B's $\longrightarrow$ two A's and {\color{red}two} B's\\
+
+\noindent{\bf L19, L21 in P1:} 
+
+\noindent a ‘\xcancel{B}etter’ $\longrightarrow$ a ‘better’ {\color{red}choice}\\
+
+\noindent{\bf L19--20 in P1 :} 
+
+\noindent Let us examine \sout{the other} case. $\longrightarrow$ Let us examine {\color{red}another} case. \\
+
+\noindent{\bf L22 in P1 :} 
+
+\noindent $\textrm{[A, B, B, B]} \times 3$ is the ‘\sout{B}est’ \sout{method}. $\longrightarrow$ $\textrm{[A, B, B, B]} \times 3$ is the {\color{red}‘best’ choice.} \\
+
+\noindent{\bf L23 in P1 :} 
+
+\noindent Minimize the number of list.
+$\longrightarrow$ Minimize the number of list{\color{red}s}. \\
+
+\noindent{\bf L36--37 in P2 :} 
+
+\noindent The above example \sout{denotes} what is the best arrangement in such print method.
+
+\noindent $\longrightarrow$ The above example {\color{red}shows} what is the best arrangement in such print{\color{red}ing} method. \\
+
+\noindent{\bf L45--46 in P2 :} 
+
+\noindent and variable information such as the manufactur\sout{ed} date.
+
+\noindent $\longrightarrow$ and variable information such as the manufactur{\color{red}ing} date. \\
+
+\noindent{\bf L48 in P2 :} 
+
+\noindent the number of label loss increased compared to the past.
+
+\noindent $\longrightarrow$ the number of label loss{\color{red}es} increased compared to the past.\\
+
+\noindent{\bf L81 in P3 :} 
+
+\noindent input\sout{ted}
+$\longrightarrow$ input \\
+
+\noindent{\bf L92 in P3 :} 
+
+\noindent $b_{i}$ be the number of order.
+$\longrightarrow$ $b_{i}$ be the number of order{\color{red}s}. \\
+
+\noindent{\bf L96 in P3 :} 
+
+\noindent satisfy the following
+$\longrightarrow$ satisfy{\color{red}ing} the following \\
+
+\noindent{\bf L98 in P3 : Period is inserted.} \\
+
+\noindent{\bf L119 in P4 : } 
+
+\noindent input\sout{ted}
+$\longrightarrow$ input \\ \vspace{2cm}
+
+\noindent{\bf L127 in P4 : } 
+
+\noindent $N$ is a printing number that expressed in
+
+\noindent $\longrightarrow$ $N$ is a printing number that {\color{red}is} expressed in\\
+
+\noindent{\bf L142 in P6 : } 
+
+\noindent We can see \sout{the} Figure $\longrightarrow$ We can see Figure \\
+
+\noindent{\bf (4.6) below L154 in P7 : Period is deleted.} \\
+
+\noindent{\bf L156 in P7 : } 
+
+\noindent because its number of plate $\longrightarrow$ because its number of plate{\color{red}s} \\
+
+\noindent{\bf L159 in P7 : } 
+
+\noindent Now, we consider real problem of World Komax.
+
+$\longrightarrow$ Now, we consider {\color{red}a} real problem of World Komax. \\
+
+\noindent{\bf The line above matrix $A$ which is above L166 in P8 : } 
+
+\noindent The matrix $A$ can be found as follow\xcancel{ed}.
+
+\noindent $\longrightarrow$ The matrix $A$ can be found as follow{\color{red}s}. \\
+
+\noindent{\bf L175 in P9 : } 
+
+\noindent The two populations are as \sout{such}. $\longrightarrow$ The two populations are as {\color{red}follows}. \\
+
+\noindent{\bf L205 in P10 : } 
+
+\noindent the size of $I$(cf. Section 3) 
+$\longrightarrow$ the size of $I${\color{red}$\check{\phantom{a}}$}(cf. Section 3) \\
+
+\noindent{\bf L206 in P10 : } 
+
+\noindent For each 82 samples,
+
+\noindent $\longrightarrow$ For each {\color{red}of the} 82 samples,
+
+%\bibliographystyle{plain}
+%\bibliography{SHSeo}
+
+\end{document}
