@@ -22,8 +22,8 @@
 \usepackage{caption}
 \usepackage{blkarray}
 \usepackage{array}
-\usepackage{lineno}
-\linenumbers
+%\usepackage{lineno}
+%\linenumbers
 
 \makeatletter
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Textclass specific LaTeX commands.
@@ -318,8 +318,8 @@ Based on the foregoing, the flowchart of the algorithm can be set forth as follo
 
 In Figure \ref{fig:MFChart}, $z$ is the threshold and the others are explained in the notation above.
 This algorithm outputs matrix $A=\bigoplus\limits_{P} A_{P,i}$ containing the label of each product when $I$ and ${\bf b}$ have been input for $z$, $k$, $num$. 
-One of the results of ${loop}(k, z, num)$, $P$ is the set of products that contains the Plate (see Figure \ref{fig:SFChart}). 
-By removing $P$ from $I$, each plate does not have the same product.
+One of the results of ${loop}(k, z, num)$, $P$ is the set of products which are contained in the Plate (see Figure \ref{fig:SFChart}). 
+By removing $P$ from $I$, one type of label should be placed on only one plate.
 The algorithm repeats until $I$ is empty.
 
 \begin{figure}[h!]
